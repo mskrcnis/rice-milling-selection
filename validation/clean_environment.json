@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "started_utc": "2026-11-21T16:03:04.728566+00:00",
+  "finished_utc": "2026-11-21T16:04:23.409497+00:00",
+  "requirements_sha256": "9621661171261e348837699d00446ceb83dbc0a56e54d47fcf509585f0c87132",
+  "python_version": "Python 3.12.3",
+  "locked_package_count": 44,
+  "installed_package_count": 45,
+  "lock_version_differences": {},
+  "original_pinned_version_differences": {},
+  "installed_not_explicitly_locked": {
+    "pip": "24.0"
+  },
+  "pip_check_returncode": 0,
+  "pytest_summary": {
+    "tests": 97,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_seconds": 8.633
+  },
+  "test_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": "study",
+    "pytest_cache_provider": "disabled",
+    "temporary_files_and_cache": "external to publication repository"
+  },
+  "scope": "Fresh environment installation and unit/synthetic tests only. Full scientific replay is recorded separately.",
+  "raw_log_scope": "Raw installation and test logs remain in the local publication audit; workstation paths are not included in this summary."
+}

@@ -1,0 +1,29 @@
+{
+  "declared_stable_utc": "2026-11-20T17:06:51.244537+00:00",
+  "scope": "Final Arkansas extraction; no policy outcomes inspected by parent; private labels quarantined. Raw bytes immutable; deterministic derived outputs independently reconciled before source freeze.",
+  "downloaded_source_records": 34,
+  "failed_download_attempts": 5,
+  "annual_final_files": 15,
+  "hashes": {
+    "src/acquire_arkansas.py": "dcc1d33540458406e4da6530b1f59be8ebd3ed09b2e8c40a6030a832ed026704",
+    "src/prepare_arkansas.py": "792c2a7dc5fe9289d2bc7bc425c13a782e3a702240e0ea0616e631758ea4ce0b",
+    "tests/test_arkansas_extraction.py": "6315b98b325bcd89c07bfb94abc26966b918a6b05635368b5359eddfc8765f5e",
+    "raw/arkansas/source_manifest.json": "b3c738705c751f32728a66864565adffe1bf4839c9bc6e3540e32b123055a257",
+    "derived/arkansas/private_all_extracted_cells.csv": "e66401ae43af933e7560b4652ada5e583a452f5314b41a6e732922ba8c881f8b",
+    "derived/arkansas/private_duplicate_audit.csv": "7e997fc357f14222960fcc32711b73b47dd20deacb4d9daad2e3a7817f8b2d55",
+    "derived/arkansas/private_independent_text_geometry.csv": "fa6c039c2a1ac1690037f95d677d18f7e09cca112ebc20ae528c1bd7a02dae83",
+    "derived/arkansas/private_outcomes.csv": "93ceb08724ff6d6c32742eaaf4479ed0e44312e6c7c5b28a6ad0c036cdf983ab",
+    "derived/arkansas/public_features.csv": "3225537e41bd6c192aa79af787a90a29d03429f51a3ae0615d44de27f7841a27",
+    "audit/arkansas_coverage.csv": "0882d05b9cce30c119368bfedea0f665b28f3b603b92863bbf391010caee75ca",
+    "audit/arkansas_data_dictionary.csv": "93d83a499ec49c2766ea1806e5e8a1f9706bc92164cc4612daed4ca106fe49ff",
+    "audit/arkansas_excluded_tables.csv": "e96a8b84adc9bcd333ab30ddb03a530198ebd2df164ae72006cc340a5d18df9d",
+    "audit/arkansas_independent_table_row_checks.csv": "1946038c13a4111cb50f1660e1600a849a97d4ac851fc42271dc62f9e7486448",
+    "audit/arkansas_year_screen.csv": "a0f7a73f5260122db50583ae218a146589943ec1b8903afb0be29d5f21ea5c0f",
+    "audit/arkansas_source_and_extraction.md": "a96c7633e3aaa556794115d40685eecc547aef7b907219502097dc3faecb729e",
+    "audit/arkansas_search_screen.json": "660f151cd72f3a6457690688ef38f713b19c2f36c38c79d754f26321b0fdf581",
+    "audit/arkansas_independent_extraction_check.json": "1b8bc49cb91b342312f5513db37471ee91d5d36bf34c62b75a119b167c085360",
+    "audit/arkansas_reproducibility.json": "cac9a9352af2eb1560ab78a497c896d8cdfa856234bb9bfeb1cd63ad6d92ab06",
+    "audit/arkansas_final_coverage_summary.json": "7b73fbd32f50fe4115db92da931a21415da601e8b0ddb2614e1340ac8126f49e",
+    "derived/arkansas/private_visual_checks/manual_checks.json": "5015e30bb1a5c393ecdfd8e452096f98cc2439fc85bc71279280ac7e039bf8f9"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-11-20T18:14:53.858732+00:00",
+  "timing": "Frozen after synthetic checks and before all real rounding diagnostic computations",
+  "plan_sha256": "42a5ecc6262165e40b9c85d1d642cb39a471aded4688e883ef22ddd4d224363a",
+  "plan_text_sha256": "2516cdcabb74874925da75a2c4b9a3c77d33a9ea9ce2a233de20b5f83c316498",
+  "code_sha256": "1ba66a874194b4f5460fdaa401d6aed184d0b2e1ae9fa2c6d9d158974a504182",
+  "synthetic_checks": "32 exhaustive rectangle vertices and252 scalar/vector scenario-budget checks passed"
+}

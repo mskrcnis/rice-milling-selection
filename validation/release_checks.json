@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "completed_utc": "2026-11-21T16:12:07.482159+00:00",
+  "command": "REVIEWER_PYTHON=<validated Python 3.12.3 interpreter> bash run_reviewer.sh",
+  "unit_and_synthetic_tests": {
+    "passed": 97,
+    "failed": 0,
+    "excluded_raw_pdf_tests": 16
+  },
+  "original_artifacts_matching": 18,
+  "post_hoc_artifacts_matching": 27,
+  "regenerated_omitted_artifacts": {
+    "study/outputs/run_a/frozen_initial_batch_plans.json": {
+      "sha256": "a2bddb71dcfa093903647bcea54c2abdb224177d3fafb1768919974041a27486",
+      "matches_archived_copy": true
+    },
+    "study/outputs/run_a/prediction_diagnostics.csv": {
+      "sha256": "d8b20a0756f2468aca1cda5ded4f5ddf2ba884df1755c4d838672ac228644663",
+      "matches_archived_copy": true
+    },
+    "study/outputs/run_a/sensitivity/product_definition_sensitivity.csv": {
+      "sha256": "eea5aea9815ea6d7832422b87f3029be59242c1345f018b168063fce709da0c3",
+      "matches_archived_copy": true
+    }
+  },
+  "input_manifests": {
+    "portable_input_manifest.json": "40c87524d53ce998093544df98e3b4300bba7a08bab37c9aff69486a90d36404",
+    "revision_input_manifest.json": "6284fb19eeef9d08940426e6101f7dfeac0ceaf5707c65e0572f41e17baa058f"
+  },
+  "formatting_provenance_sha256": "eaff1641c307cc252782f8a83322beeec9c105610a23282a8a770cdc332d42b1",
+  "requirements_sha256": "9621661171261e348837699d00446ceb83dbc0a56e54d47fcf509585f0c87132",
+  "scope": "Fresh fit and complete replay from the formatted repository, after original outcomes were observed. Expected scientific output hashes were not changed. This is computational reproduction, not prospective or independent biological validation."
+}

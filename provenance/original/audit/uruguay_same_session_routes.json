@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://datadryad.org/downloads/file_stream/2465930",
+    "status": 403,
+    "path": "raw/uruguay/readme_session.txt",
+    "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+    "retrieved_utc": "2026-11-20T16:50:13.536513+00:00"
+  },
+  {
+    "url": "https://datadryad.org/data_file/preview_check/2465928.js",
+    "status": 200,
+    "path": "raw/uruguay/preview_session.txt",
+    "sha256": "c0d78d8537cbe701d34c8f72c88cb029339554b75755b90a0e3a5dceac1cf5d4",
+    "retrieved_utc": "2026-11-20T16:50:14.007768+00:00"
+  }
+]

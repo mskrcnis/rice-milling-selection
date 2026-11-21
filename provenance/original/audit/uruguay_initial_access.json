@@ -1,0 +1,42 @@
+[
+  {
+    "key": "dryad_landing",
+    "url": "https://datadryad.org/dataset/doi%3A10.5061/dryad.x69p8czn8",
+    "retrieved_utc": "2026-11-20T16:44:10.085388+00:00",
+    "status": 200,
+    "resolved_url": "https://datadryad.org/dataset/doi%3A10.5061/dryad.x69p8czn8",
+    "content_type": "text/html; charset=utf-8",
+    "path": "raw/uruguay/dryad_landing.txt",
+    "sha256": "f0050132f0e8b3d5b6d0bd4e214a16745a4809d9969bef38e63d9c0156191919",
+    "bytes": 44446
+  },
+  {
+    "key": "dryad_api",
+    "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czn8",
+    "retrieved_utc": "2026-11-20T16:44:11.677988+00:00",
+    "status": 200,
+    "resolved_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czn8",
+    "content_type": "application/json; charset=utf-8",
+    "path": "raw/uruguay/dryad_api.txt",
+    "sha256": "f3a978f67a1b941e565f230a391a9ffab0381d992dc9ec419fcc861165f5dbbf",
+    "bytes": 6471
+  },
+  {
+    "key": "wiley_article",
+    "url": "https://acsess.onlinelibrary.wiley.com/doi/full/10.1002/csc2.20955",
+    "retrieved_utc": "2026-11-20T16:44:12.612160+00:00",
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "redata_api",
+    "url": "https://redata.anii.org.uy/api/datasets/:persistentId/?persistentId=doi:10.60895/redata/2ZSCWL",
+    "retrieved_utc": "2026-11-20T16:44:12.770816+00:00",
+    "status": 200,
+    "resolved_url": "https://redata.anii.org.uy/api/datasets/:persistentId/?persistentId=doi:10.60895/redata/2ZSCWL",
+    "content_type": "application/json;charset=UTF-8",
+    "path": "raw/uruguay/redata_api.txt",
+    "sha256": "96890133fafbdbdc6e40a1b745860e21e21a84286010b11196500baffc2338a0",
+    "bytes": 5447
+  }
+]

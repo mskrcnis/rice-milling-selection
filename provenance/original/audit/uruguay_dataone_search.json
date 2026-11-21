@@ -1,0 +1,7 @@
+{
+  "url": "https://cn.dataone.org/cn/v2/query/solr/?q=x69p8czn8&wt=json&rows=100",
+  "status": 200,
+  "path": "raw/uruguay/dataone_search.json",
+  "sha256": "361bebfc0d16f5a30fe5dddfcc044e32cc72057db0295b2b1989e8640bad9715",
+  "retrieved_utc": "2026-11-20T16:49:20.441157+00:00"
+}

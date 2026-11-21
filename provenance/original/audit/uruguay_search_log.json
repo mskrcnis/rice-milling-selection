@@ -1,0 +1,37 @@
+{
+  "recorded_utc": "2026-11-20T16:57:56.677333+00:00",
+  "search_queries": [
+    "\"x69p8czn8\" Phenotypes download",
+    "\"Uruguayan\" \"rice\" \"Phenotypes.txt\"",
+    "\"PMGA_BD_INIA\" \"VAR_1\"",
+    "\"INIA\" \"2ZSCWL\" variables",
+    "\"x69p8czn8\" github",
+    "\"x69p8czn8\" Merritt",
+    "\"PMGA\" \"Rebollo\" datos codigo",
+    "\"Instituto Nacional\" \"Rice Breeding Program Historical Dataset\" download",
+    "\"Rebollo\" \"Scheffel\" \"github\" rice",
+    "\"x69p8czn8\" -site:datadryad.org -site:silo.uy",
+    "\"INIA\" \"Rice\" \"Phenotypes\" \"github\""
+  ],
+  "purpose": "Exact source and definition recovery, not a systematic literature review",
+  "selected_routes": [
+    "Dryad metadata/landing/version/file/linkset/current and legacy streams",
+    "DataCite original DOI metadata",
+    "DataONE Solr fielded text/title/id queries",
+    "Zenodo original DOI and exact title",
+    "ReData related DOI original CSV/DDI and exact-title search",
+    "authorized local filename cache search",
+    "official current browser entry, unavailable"
+  ],
+  "successful_exact_mirror": {
+    "url": "https://zenodo.org/records/8222856",
+    "method": "title phrase query returned1 result; DOI text query returned0",
+    "identity_check": "same DOI/title/date/files plus exact Dryad SHA256 for all4 required originals"
+  },
+  "alternative_not_used": "ReData93722-row release lacked meaningful definitions for coded150 columns",
+  "remaining_units_gaps": [
+    "Archivewide PHR denominator explicit statement",
+    "Archivewide paddy-yield moisture adjustment",
+    "Physical assay and composite/shared-sample identifiers"
+  ]
+}

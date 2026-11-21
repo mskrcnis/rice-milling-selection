@@ -1,0 +1,136 @@
+{
+  "search_date": "2026-11-20",
+  "scope": "Bounded decision-focused audit, not systematic review or worldwide novelty proof",
+  "query_total": 30,
+  "returned_occurrences_total": 130,
+  "archived_screened_occurrences": 112,
+  "unique_archived_urls": 103,
+  "closest_work_count": 11,
+  "batches": [
+    {
+      "date": "2026-11-20",
+      "engine": "web search",
+      "queries": [
+        "\"10.1002/csc2.20955\"",
+        "\"10.1002/csc2.70211\"",
+        "\"10.2135/cropsci2017.09.0564\"",
+        "rice head rice recovery budget phenotyping sequential selection active learning milling"
+      ],
+      "returned_occurrences": 18,
+      "raw_file": null,
+      "limitation": "Initial4 queries executed and18 results observed in conversation but raw response not serialized; three seed papers subsequently independently DOI/source verified. Count is transcript-derived."
+    },
+    {
+      "date": "2026-11-20",
+      "engine": "web search",
+      "queries": [
+        "budgeted phenotyping plant breeding active learning sample selection sequential budget",
+        "\"sequential\" \"phenotyping\" \"selection\" budget",
+        "\"laboratory\" \"sample selection\" \"batch\" active learning phenotyping rice",
+        "\"head rice\" prediction yield \"machine learning\""
+      ],
+      "returned_occurrences": 21,
+      "raw_file": "raw/literature/search_batch2.json",
+      "limitation": ""
+    },
+    {
+      "date": "2026-11-20",
+      "engine": "web search",
+      "queries": [
+        "rice \"multi-trait\" \"milling\" \"genomic selection\"",
+        "\"sequential\" \"phenotyping\" \"optimal\" breeding",
+        "\"head rice yield\" \"dataset construction\" Clarke DOI",
+        "site.uaex.uada.edu rice \"45\" \"12%\" \"milling\""
+      ],
+      "returned_occurrences": 16,
+      "raw_file": "raw/literature/search_batch3.json",
+      "limitation": ""
+    },
+    {
+      "date": "2026-11-20",
+      "engine": "web search",
+      "queries": [
+        "\"10.1007/s00122-017-2988-z\" pdf",
+        "\"10.1007/s13253-021-00454-2\" pdf",
+        "\"10.1002/csc2.20955\" \"head\" \"moisture\"",
+        "site:uaex.uada.edu \"rice\" \"45 pounds\" \"13\""
+      ],
+      "returned_occurrences": 18,
+      "raw_file": "raw/literature/search_targeted1.json",
+      "limitation": ""
+    },
+    {
+      "date": "2026-11-20",
+      "engine": "web search",
+      "queries": [
+        "\"A Modified Bayesian Optimization Approach for Determining a Training Set\" genotypes",
+        "\"10.1002/csc2.20955\" \"moisture\"",
+        "\"Rebollo\" \"PHR\" \"13%\" rice",
+        "\"Monteverde\" \"2018\" \"rice\" \"milling\" \"100\""
+      ],
+      "returned_occurrences": 18,
+      "raw_file": "raw/literature/search_targeted2.json",
+      "limitation": ""
+    },
+    {
+      "date": "2026-11-20",
+      "engine": "web search",
+      "queries": [
+        "\"Consolidating 23 years\" \"13\"",
+        "\"Consolidating 23 years\" \"14\"",
+        "\"Rebollo\" \"Scheffel\" \"humedad\" arroz",
+        "\"INIA\" \"PHR\" \"rough rice\""
+      ],
+      "returned_occurrences": 18,
+      "raw_file": "raw/literature/search_units.json",
+      "limitation": ""
+    },
+    {
+      "date": "2026-11-20",
+      "engine": "web search",
+      "queries": [
+        "\"Constructing training sets for genomic selection to identify superior genotypes in candidate populations\"",
+        "\"Optimizing training sets for genomic selection to identify superior genotypes across multiple environments\"",
+        "\"head rice yield\" \"sequential\" selection budget",
+        "\"rice\" \"milling\" \"active learning\" selection"
+      ],
+      "returned_occurrences": 14,
+      "raw_file": "raw/literature/search_final.json",
+      "limitation": ""
+    },
+    {
+      "date": "2026-11-20",
+      "engine": "web search",
+      "queries": [
+        "\"10.1002/csc2.70211\" \"PTLA\" \"PS5\"",
+        "\"10.1002/csc2.20955\" \"PHR\" \"TABLE 1\""
+      ],
+      "returned_occurrences": 7,
+      "raw_file": "raw/literature/search_seed_verification.json",
+      "limitation": ""
+    }
+  ],
+  "screen_counts": {
+    "related_thesis_or_report": 5,
+    "related_biology_or_prediction": 7,
+    "secondary_context": 9,
+    "closest_work_or_duplicate_route": 34,
+    "source_exposure_not_evaluated": 2,
+    "adjacent_not_fulltext_reviewed": 21,
+    "out_of_scope_or_uninformative_route": 19,
+    "unit_support": 5,
+    "rejected_mismatched_body": 1,
+    "source_metadata_or_methods_support": 4,
+    "unit_support_related_primary": 5
+  },
+  "public_acquisition_attempts": 44,
+  "http200_acquisitions": 36,
+  "notes": [
+    "Search hits are not independent studies; duplicate routes retained.",
+    "Targeted primary opens/finds, Crossref and OpenAlex metadata are acquisition/verification actions, not extra broad search queries.",
+    "Arkansas snippets inadvertently returned by broad search are quarantined in raw search files; safe audit summaries contain no candidate outcomes or policy comparisons.",
+    "No external messages, author requests or paid access.",
+    "No fixed initial numeric search budget was predeclared: search stopped after30 queries plus bounded primary-source verification. This is an audit log, not a preregistered systematic review.",
+    "Adjacent incomplete full-text leads remain uncertainty; no first-in-field claim."
+  ]
+}

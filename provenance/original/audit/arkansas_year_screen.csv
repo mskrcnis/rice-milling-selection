@@ -1,0 +1,20 @@
+report_year,downloaded_final,extracted_measurement_cells,grain_cells,milling_cells,eligible_table_structure,reason,source_file
+2008,False,0,0,0,False,No standalone FINAL annual report recovered from official archive and targeted official-site search; retrospective pooled columns do not establish a site-year candidate universe.,
+2009,False,0,0,0,False,No standalone FINAL annual report recovered from official archive and targeted official-site search; retrospective pooled columns do not establish a site-year candidate universe.,
+2010,False,0,0,0,False,No standalone FINAL annual report recovered from official archive and targeted official-site search; retrospective pooled columns do not establish a site-year candidate universe.,
+2011,True,78,78,0,False,Contemporaneous site grain establishes candidate universe; milling in this annual report is pooled across sites and is not paired. Later reports may supply explicitly labelled individual-year cells.,raw/arkansas/report_2011.pdf
+2012,True,155,155,0,False,Contemporaneous site grain establishes candidate universe; milling in this annual report is pooled across sites and is not paired. Later reports may supply explicitly labelled individual-year cells.,raw/arkansas/report_2012.pdf
+2013,True,120,120,0,False,Contemporaneous site grain establishes candidate universe; milling in this annual report is pooled across sites and is not paired. Later reports may supply explicitly labelled individual-year cells.,raw/arkansas/report_2013.pdf
+2014,True,84,84,0,False,Contemporaneous site grain establishes candidate universe; milling in this annual report is pooled across sites and is not paired. Later reports may supply explicitly labelled individual-year cells.,raw/arkansas/report_2014.pdf
+2015,True,115,115,0,False,Contemporaneous site grain establishes candidate universe; milling in this annual report is pooled across sites and is not paired. Later reports may supply explicitly labelled individual-year cells.,raw/arkansas/report_2015.pdf
+2016,True,675,390,285,True,individual site-year ARPT grain and milling cells available,raw/arkansas/report_2016.pdf
+2017,True,775,460,315,True,individual site-year ARPT grain and milling cells available,raw/arkansas/report_2017.pdf
+2018,True,805,475,330,True,individual site-year ARPT grain and milling cells available,raw/arkansas/report_2018.pdf
+2019,True,546,339,207,True,individual site-year ARPT grain and milling cells available,raw/arkansas/report_2019.pdf
+2020,True,700,415,285,True,individual site-year ARPT grain and milling cells available,raw/arkansas/report_2020.pdf
+2021,True,1068,534,534,True,individual site-year ARPT grain and milling cells available,raw/arkansas/report_2021.pdf
+2022,True,1068,534,534,True,individual site-year ARPT grain and milling cells available,raw/arkansas/report_2022.pdf
+2023,True,1220,610,610,True,individual site-year ARPT grain and milling cells available,raw/arkansas/report_2023.pdf
+2024,True,1408,704,704,True,individual site-year ARPT grain and milling cells available,raw/arkansas/report_2024.pdf
+2025,True,1292,646,646,True,individual site-year ARPT grain and milling cells available,raw/arkansas/report_2025.pdf
+2026,False,0,0,0,False,Only preliminary results found; final URL failed and official archive stops at 2025 as accessed,

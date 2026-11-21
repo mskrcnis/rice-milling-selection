@@ -1,0 +1,35 @@
+{
+  "code_sha256": "41e480620441be101fdd230c55102a6458a9b45e592c489ea1d4fb05e49aea36",
+  "diagnostic_plan_sha256": "4407c10a39ebd328b2fafb5d7124f295741fceaebb39c5ccf6db1ad917676ee3",
+  "eligible_entries": 9179,
+  "helper_code_sha256": "f5f9c26c6b94af4dd53117e82d0e8cf117c88495c989ce79e925e82872e30dd8",
+  "no_uncertainty_intervals": true,
+  "original_all_field_rank_independently_checked": true,
+  "outputs": {
+    "breeder_arkansas_periods.png": "0cc13faab47f1057015125ad1478be11a8eb6b7cbf84aef267e06a003284e08c",
+    "breeder_arkansas_periods.svg": "a34c384958ff05d770b3ff2d5752a8269400ef109deb5bc46b7174838f3c0d7e",
+    "breeder_denominator_comparison.png": "6e0016ae996d557f21cb2e8472b31eecbccc35c1ebbea7ca589781abaaced6fa",
+    "breeder_denominator_comparison.svg": "9f5ec8597e6a92d2a4eea71983a6b4f20539bfdfa1145cc7ea766c7eabdb46c9",
+    "breeder_field_yield_ranks.pdf": "30af9531e7344291d072fca19fe134e51c2edee1db127373eb3a6010abba3061",
+    "breeder_field_yield_ranks.png": "5215c67caefda754912708bce2cc26f54c8a5df807cb6fcd89d66a54cda4d8b0",
+    "breeder_field_yield_ranks.svg": "7a442831f9dc01fb83263af82b09eb463a1e63a393df63a8e2d297edae09303b",
+    "pool_equal_ecdf_data.csv": "19bb386ecab64c943caeac6ea069a3bf7166af07229749bf4aec7a76365c62b9",
+    "pool_reference_coverage.csv": "c9d9fc5fa9f213c5fb6b7498a8dfd6990e3c5ec910faeccadbe4f77bfe8acc78",
+    "rank_display_summary.csv": "a617c93d1c75a0d2a69936b3b3f01dcb93cee561b5d0baa19cef6c961db9247a",
+    "reference_entry_field_yield_ranks.csv": "1c93138c99a215ec959fa783b0509cbe4f065df2fa8e723ba648cbee0a3f7180"
+  },
+  "pool_equal_curves_not_candidate_equal": true,
+  "pools": 250,
+  "quarter_budget_curve_matches_archived_recall": true,
+  "reference_entries": 1053,
+  "scope": "post_hoc_prespecified_descriptive_display",
+  "source_inputs": {
+    "derived/arkansas/private_outcomes.csv": "93ceb08724ff6d6c32742eaaf4479ed0e44312e6c7c5b28a6ad0c036cdf983ab",
+    "derived/cohort/all_public_metadata.csv": "33964c6ea9414c420d624da4178ce87e4a74c7acafeb07df432843cd47ca3a22",
+    "derived/uruguay/private_outcomes.csv": "8863971e57a6b79e279ad077f21b9449d7e0c0527ea1095ac87cb5867ca70b6e",
+    "outputs/run_a/evaluation_freeze.json": "a8bc5b3621171f33fde57730653e1cd4f55fc52fef1bd46d703a4755ec09dc65",
+    "outputs/run_a/frozen_public_candidates.csv": "461a1864a1f8e2089ac4aa8251f0771194b74d2bbd9cc70e8d7ff2df2126e9d8",
+    "outputs/run_a/per_pool_results.csv": "d4e2c9d66652da38d2e71a0944de8f0bfc1eb0f8da1094fa459257084d56a356"
+  },
+  "status": "pass"
+}

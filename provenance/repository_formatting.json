@@ -1,0 +1,224 @@
+{
+  "formatter": "black 24.10.0",
+  "scope": "Formatting-only source conversion; AST equality excludes source-location attributes. Frozen scientific choices and expected outputs unchanged.",
+  "source_archive_sha256": "cd80cc3ffeb0ac75de396fcb7e5759e0acb2f54f07c781519873c4b2c967fea4",
+  "files": {
+    "revision/src/action_diagnostic.py": {
+      "original_sha256": "f5f9c26c6b94af4dd53117e82d0e8cf117c88495c989ce79e925e82872e30dd8",
+      "original_ast_sha256": "391987260d1c1ad438888bca81b8ddda80830483694ce204383ac573a27b48de",
+      "original_copy": "provenance/reviewer_bundle/source_code/revision/src/action_diagnostic.py",
+      "repository_sha256": "8860a5aef5b8942cfa735d338a9b482ef415f3c5fe866d702c0d4ca25a03d8fd",
+      "ast_equal": true
+    },
+    "revision/src/breeder_figure.py": {
+      "original_sha256": "41e480620441be101fdd230c55102a6458a9b45e592c489ea1d4fb05e49aea36",
+      "original_ast_sha256": "0f261cac482cd0bf39d20b5d76a0d442d297beda150bccf78c81e8136e6223d1",
+      "original_copy": "provenance/reviewer_bundle/source_code/revision/src/breeder_figure.py",
+      "repository_sha256": "0817cdf12993fd189c0bd6323250892d40ba77bddb6fca720c5e94ad78eb80e3",
+      "ast_equal": true
+    },
+    "revision/src/rounding_diagnostic.py": {
+      "original_sha256": "1ba66a874194b4f5460fdaa401d6aed184d0b2e1ae9fa2c6d9d158974a504182",
+      "original_ast_sha256": "3bb41d1b2e893716d19eedda989c127cfb15ec93a0cdcb1fa1e884facec0c266",
+      "original_copy": "provenance/reviewer_bundle/source_code/revision/src/rounding_diagnostic.py",
+      "repository_sha256": "4526ccbf06e8ac683d17f886bd47428f28918e758cced6435fd4daa6b7b36643",
+      "ast_equal": true
+    },
+    "study/src/__init__.py": {
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "original_ast_sha256": "3543b4693a36a1098850b8bc928887694ed59a6deb7d3dfd0339de01f55a77b6",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/__init__.py",
+      "repository_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "ast_equal": true
+    },
+    "study/src/acquire_arkansas.py": {
+      "original_sha256": "dcc1d33540458406e4da6530b1f59be8ebd3ed09b2e8c40a6030a832ed026704",
+      "original_ast_sha256": "75c74f31a71750a4f5561ed13dabc02f870cc9bc18e16b74028f115ff59d8988",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/acquire_arkansas.py",
+      "repository_sha256": "3e47055cfab4b64c938dce9f7fcb3eaa7a30314678a564f937f6475247af106f",
+      "ast_equal": true
+    },
+    "study/src/acquire_uruguay.py": {
+      "original_sha256": "b4838639ce1ca33d450aeff353ec208d7d9fc55c3c3f84968fa72cd21369f29f",
+      "original_ast_sha256": "9b265e2d976b59e2807c5bea4e5496105c94b6a37043d269595d07d4002dfacc",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/acquire_uruguay.py",
+      "repository_sha256": "435cb4695ebea34aacfbb078a6440b646867cae12b27d3abc5aa32c035921e55",
+      "ast_equal": true
+    },
+    "study/src/analysis.py": {
+      "original_sha256": "de0da6670e15eab3141c37c5021fd2cd7a4d2d76d36b4a9edf94bb0b545f6820",
+      "original_ast_sha256": "14bf8a7d10b015f574f8ffa0fb14e629457a6f33b83e5d7308eec27689f64b60",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/analysis.py",
+      "repository_sha256": "433fa3c284dbcfd92ef18f543f86b4924421b48747dbe0a9f2774093dfd8efbc",
+      "ast_equal": true
+    },
+    "study/src/availability_report.py": {
+      "original_sha256": "b6045c72ed4b8d68c1afa0bf3890f59b40355766c1d5271abe0adf89d774fb4f",
+      "original_ast_sha256": "1b3fa10b05c2e7b59e43d99cd368140f455cc3547891d990b6f5cf214d286a61",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/availability_report.py",
+      "repository_sha256": "bd1ddfac1074c1fdd1a0019841ec4f5f4db1fa3e929bf19d55d6b74e08600449",
+      "ast_equal": true
+    },
+    "study/src/bibliography.py": {
+      "original_sha256": "d604601fa35a156c29877d3073e28428d9f388fc0c3f1cc60978bbad28e8fc4f",
+      "original_ast_sha256": "b0459ab314007a6645f5babae0af65f744ef8bbb2de4032953b6f0f77229135b",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/bibliography.py",
+      "repository_sha256": "8cc68a696876fdcbb8dd67e4481b4365fd086674ad299b75d9ced0cb1b99aa53",
+      "ast_equal": true
+    },
+    "study/src/common.py": {
+      "original_sha256": "eb6c86f57bfb88594f7106ad0a60a15ce12979f15b4e689a307753998dc12a0a",
+      "original_ast_sha256": "60150eac6926f462532a7977fed3665b60ebd03852519b11b53e9ff21dfcc8fd",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/common.py",
+      "repository_sha256": "4c96ffe906e8124ba0129af63e0e3642011e629b0993b753af5f1f69679cd968",
+      "ast_equal": true
+    },
+    "study/src/data.py": {
+      "original_sha256": "60fd985dc5d5227666f4b9f784bcdd7fc4f0d92549319fa09b3a522c547e68bd",
+      "original_ast_sha256": "963df4e96b789ee08f3945218f90b376651fbd7f95426fd4987e90ea70f69ce6",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/data.py",
+      "repository_sha256": "f41a9de88c50b6a329431e888a9bd82e8a108c252c2f1880c767c162b9f9905f",
+      "ast_equal": true
+    },
+    "study/src/diagnostics.py": {
+      "original_sha256": "ccca9b1936f9c64f409fa478678744a7e62f2f896effd1da626a7846249bcf22",
+      "original_ast_sha256": "ab00ccc5c3823d1c663d1bfe847da9384bcd6d2d5e918a612da6c380646c9807",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/diagnostics.py",
+      "repository_sha256": "ec92409de8dd6b0137fde679becc7aaa637bce00341fbe6a5d1cbe7cec29aa70",
+      "ast_equal": true
+    },
+    "study/src/experiment.py": {
+      "original_sha256": "01d04cbc0b9daa3c92b78c0521b0839655a2e8692d400fba4c6a3dd11e20426d",
+      "original_ast_sha256": "0631e510bd77e5f5585e9df5819ffc83d59be1557aa526e21c602e5a54d35c04",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/experiment.py",
+      "repository_sha256": "08660eac4d5fa01fae8c56ef79110361ec8ac75c38dd32c9c7707d166420cf7a",
+      "ast_equal": true
+    },
+    "study/src/models.py": {
+      "original_sha256": "a98078b9463505a0cf446cdc1e8fdcb4b4690c12ce420053a11b1d0ab04db365",
+      "original_ast_sha256": "2f09fb6fba7cef04940c4b06b964441b11607e0de5acf956b95410b2c8dbb17b",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/models.py",
+      "repository_sha256": "a2beea34dc6683c589cf12a55f935ca53bce8d60cdef2c9b0da50d6596888e0e",
+      "ast_equal": true
+    },
+    "study/src/prepare_arkansas.py": {
+      "original_sha256": "792c2a7dc5fe9289d2bc7bc425c13a782e3a702240e0ea0616e631758ea4ce0b",
+      "original_ast_sha256": "94d16e35992ee578bd8bc83115e487f256a52ddfa897ce081ed0c7ec78bffa6d",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/prepare_arkansas.py",
+      "repository_sha256": "b145ddb8b50c00d0865180534644618ee4fa03a8690f0da438e3daf87ce4666e",
+      "ast_equal": true
+    },
+    "study/src/prepare_uruguay.py": {
+      "original_sha256": "31211860ac0668b36b7b2c3f0ac9d02b9c5221187582d2c44c707a806a15773b",
+      "original_ast_sha256": "bc817c52b3fe0957a2d4626bf0961677d6c9715dbbb8c4dbf79e3a2253f0178e",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/prepare_uruguay.py",
+      "repository_sha256": "194a127cfa1f37ffdfb25288923281b7676ac06dd9b90c9b13d73c05724414a9",
+      "ast_equal": true
+    },
+    "study/src/regenerate_tables.py": {
+      "original_sha256": "72463d3ee1b9190a6110c636f874a4322ec79eefb04bba194cdcf5f1dc713bcf",
+      "original_ast_sha256": "091aefd1ff0b042a968661f6525e9235b9af60d201b7f4a5a440d51087c2ce3d",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/regenerate_tables.py",
+      "repository_sha256": "3e22ae507a827212fcb909e45ca10dcba0a7fed9cd4579f334dab134de839bd2",
+      "ast_equal": true
+    },
+    "study/src/replay.py": {
+      "original_sha256": "eaf438b5361fe0c1fca29d509aee40f7f513d349f6af964febd2e71d9b107ed7",
+      "original_ast_sha256": "5c7032e67ad12a9355ac7b0c6468ee25e917d8fcc8d91dd4f74adbfe2dfcd5c0",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/replay.py",
+      "repository_sha256": "ddc36685cebb1222ade6e79c6637c6fb6a5f474ed68bcb0661bf5609af04dc4a",
+      "ast_equal": true
+    },
+    "study/src/report.py": {
+      "original_sha256": "9f447c46610a401a200480a612c23435f906af3ad97ccc2ba5bd72a4912839f6",
+      "original_ast_sha256": "604b012db9954b39c7d1b4511f4b509de1d5ef077df5437c412a9c82746efc8a",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/report.py",
+      "repository_sha256": "08911cbab49a1db40fb622ac2b0584df2a5a7f34113705c9a9ff2585bdaa58be",
+      "ast_equal": true
+    },
+    "study/src/report_figures.py": {
+      "original_sha256": "ac0db257e9cbb0d4e36d2ebebaabf20ff0f99da3dc824754bbc0b7fa252d6ec8",
+      "original_ast_sha256": "64d84fd64dce472d0cfa3d2ad0795947846751fd14dc0a8053863bf98380821b",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/report_figures.py",
+      "repository_sha256": "50a9444f33f3523f420a51a558e9ffde926d625c01f155776a7e0f84725aa3ce",
+      "ast_equal": true
+    },
+    "study/src/reproduce.py": {
+      "original_sha256": "3bdc39222a59758da296abb95e313bf372b1ebe3aa5cb1fff3c6c5f0e91958e2",
+      "original_ast_sha256": "ba16d043286505c7721d637c0b474b972411da99f314d59eac12603588a8fe1c",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/reproduce.py",
+      "repository_sha256": "31a90ce079563b3ec64a670416b5c8b28a6e01d1957a5b870951d236b9ddbc2d",
+      "ast_equal": true
+    },
+    "study/src/run.py": {
+      "original_sha256": "c075a9c781a88ada5c00038f95d47cc031937c3cb9df49f6b3f605746101ac71",
+      "original_ast_sha256": "f48f5255320c7bafa2967bc515db5328de111c0e45d0638fe312712e5d626cb5",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/run.py",
+      "repository_sha256": "5827bdb5f981434dd6a03240b4df57493d5228e676202693573fcfe0afd707fd",
+      "ast_equal": true
+    },
+    "study/src/sensitivity.py": {
+      "original_sha256": "a46396845b0c902868d0264277ba8cbc498c31483a552405543da51720f47a8c",
+      "original_ast_sha256": "823728546761d8ea00ea9754aa3645d8d100b8aeae40446e4f8e5d1b18b32087",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/sensitivity.py",
+      "repository_sha256": "e7318e7083bc61afb1feaf1f4f2b01718279899e97ff5436870833404785c178",
+      "ast_equal": true
+    },
+    "study/src/verify.py": {
+      "original_sha256": "688df931a186a90e32b0bcbc22d7abd65b486a1e263c5a4285a4811171510382",
+      "original_ast_sha256": "b06b3d95dd14d1d1414a28dc5068ebbd12a8538e422ca4b416d60deae822070a",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/verify.py",
+      "repository_sha256": "1c0df6a79a5e0b35cc303435b86effae2b69c6f63dfa37275ef6184edf1d1cac",
+      "ast_equal": true
+    },
+    "study/src/verify_release.py": {
+      "original_sha256": "d7797c6efadd73fab012f2aaff9a99cc2ddd7d88809fb48b4ac58c0c7a2473a9",
+      "original_ast_sha256": "72042cc183ad5f8d2ee63d3bccc154b57bcb1e3f95c251f1076da5fa0c38631b",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/verify_release.py",
+      "repository_sha256": "37ac0fa2a72bec98b35dcdef765cb29afcaa9b81f2cece513245c44149c6defd",
+      "ast_equal": true
+    },
+    "study/src/verify_tables.py": {
+      "original_sha256": "61bb9181a8c75ab4ed0e580e075a822aee9d773f92060e7638daf42319b209a7",
+      "original_ast_sha256": "78ee71b83c03c1fd1e115858f58a8aec961fc868eadbb664699ad306fa02cbcc",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/src/verify_tables.py",
+      "repository_sha256": "8cbd34568fdb7671639a0f3a55129a92dec1a6019ec5310ccaf22e82474625a4",
+      "ast_equal": true
+    },
+    "study/tests/test_arkansas_extraction.py": {
+      "original_sha256": "6315b98b325bcd89c07bfb94abc26966b918a6b05635368b5359eddfc8765f5e",
+      "original_ast_sha256": "584dca714eafe71dd28e9525fbadceaa580a6c5311b978f7763f774ba7d4f9b5",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/tests/test_arkansas_extraction.py",
+      "repository_sha256": "ac4f2f86f4dea7b24982dd60268ee9811346c7d5ffbcb99538f0b40d3eea3e93",
+      "ast_equal": true
+    },
+    "study/tests/test_diagnostics.py": {
+      "original_sha256": "5657b6e4fd18bfb0f605c2646cdf2fd51aeff429e4e199d50d0727d0de1663da",
+      "original_ast_sha256": "a5312640d9ad1f82b885a64a2e5d570fd3c9fd1753cb02e8809564973b106334",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/tests/test_diagnostics.py",
+      "repository_sha256": "b995252bba2ee2113bee73efd345005ce0b8de7df51e408240ea985ffb9b1e4c",
+      "ast_equal": true
+    },
+    "study/tests/test_replay.py": {
+      "original_sha256": "d91d9f7147c56a0c558472ca91f5a29359b774fa2351be6aa3318ea492e0adf1",
+      "original_ast_sha256": "e259591d5bdd8905893ab35e303cccd3037b46bcaecb33b91bde377b32481af2",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/tests/test_replay.py",
+      "repository_sha256": "2801fe6eb391084eb1aafbc1c0b01373dacde24ef67d04a701eda27ab5ef1d19",
+      "ast_equal": true
+    },
+    "study/tests/test_sensitivity.py": {
+      "original_sha256": "e9c38e603d4bae0fd1fde8a46ae745e4c404cf3069c0512ac43705e803b62a97",
+      "original_ast_sha256": "2b5ffc553754a14fca0829e687f2ea239464474bee1614dffb21e47763273132",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/tests/test_sensitivity.py",
+      "repository_sha256": "997adfe029749043e8a9e0e7edcf709d4c1109d1f90c9029caf38bef5de168a2",
+      "ast_equal": true
+    },
+    "study/tests/test_verification.py": {
+      "original_sha256": "7598eaafe1e6da6c305f816b5caa1c49880a90ffdabc5fbc9eed46b6dad4e839",
+      "original_ast_sha256": "ba3ecd0f89ad97a33df22cbcd3c3ced76419880fa8c84c1c3093106194ed18d4",
+      "original_copy": "provenance/reviewer_bundle/source_code/study/tests/test_verification.py",
+      "repository_sha256": "461446c3fc3557f7bb46fe48943d0587052a3bc30bd49cea185b9ecc1d6e0e3b",
+      "ast_equal": true
+    }
+  }
+}

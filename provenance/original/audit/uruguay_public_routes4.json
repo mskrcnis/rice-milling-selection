@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://zenodo.org/api/records?q=x69p8czn8&size=10",
+    "retrieved_utc": "2026-11-20T16:49:37.498039+00:00",
+    "status": 200,
+    "path": "raw/uruguay/zenodo_search.json",
+    "sha256": "2b84bd5afecb2260ddeb08e7e7d36fb5a4afb7820c7b0276d0e8b80ee38e9e8d"
+  },
+  {
+    "url": "https://datadryad.org/downloads/file_stream/2107877",
+    "retrieved_utc": "2026-11-20T16:49:37.498323+00:00",
+    "status": 403,
+    "path": "raw/uruguay/dryad_prior_readme.txt",
+    "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4"
+  },
+  {
+    "url": "https://datadryad.org/data_file/preview_check/2465928.js",
+    "retrieved_utc": "2026-11-20T16:49:37.499010+00:00",
+    "status": 422,
+    "path": "raw/uruguay/dryad_phenotypes_preview.txt",
+    "sha256": "a699bce0b9481ae5ac7e8121cca1ded3573e369502d56c353311fe263a3569e7"
+  },
+  {
+    "url": "https://datadryad.org/dataset/doi:10.5061/dryad.x69p8czn8/linkset.json",
+    "retrieved_utc": "2026-11-20T16:49:37.499667+00:00",
+    "status": 200,
+    "path": "raw/uruguay/dryad_linkset.json",
+    "sha256": "459bceef4eb582a85c168e951b1e4f461ddc59f1b37565e4ec05a618d2af48a5"
+  }
+]

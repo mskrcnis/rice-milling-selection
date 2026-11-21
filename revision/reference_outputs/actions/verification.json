@@ -1,0 +1,35 @@
+{
+  "code_sha256": "f5f9c26c6b94af4dd53117e82d0e8cf117c88495c989ce79e925e82872e30dd8",
+  "diagnostic_plan_sha256": "4407c10a39ebd328b2fafb5d7124f295741fceaebb39c5ccf6db1ad917676ee3",
+  "events_independently_scored": 4500,
+  "original_files_changed": false,
+  "outputs": {
+    "action_comparison_summary.csv": "6057a45e639de441e19d5bf30fe12a235c69c09d8df31619d00962194e0bd9cd",
+    "coverage_summary.csv": "c865aa9e2af56bef25ea2f52af6483150a563ec5211d18325b16b157838f93a1",
+    "first_measured_grid_crossing.csv": "65f1b28bb8081f5e6ab6e8cc0477892e8db94660d2302303201b7f71a4885ac1",
+    "headline_and_period_metrics.csv": "78a22a158867bc9f9c68454bcb2ecad7482b251c3573e6e755ffe4e728e5eeb9",
+    "independently_recomputed_metrics.csv": "7e338cc13d1597e52ef7c59d831f778352a0ac90531eb0361a99fe590af8d05d",
+    "pool_action_comparisons.csv": "d79ff91116ee03668655a1442de84b2e08f8ed74efb6a6ea0afbee5d6db96eb2",
+    "pool_coverage.csv": "c1e62a260806f5a6ef838d4d2210cd7b3111c7d14489dbeda35437092b5ada4f",
+    "secondary_feedback_regret_exceptions.csv": "a379c97f5b8f9e74557b8c3c6f7024604a4801a1a670c644a7ac540a61789209"
+  },
+  "pool_policy_contrasts": 4000,
+  "primary_candidates": 9179,
+  "primary_pools": 250,
+  "regret_equality_tolerance_pp": 1e-10,
+  "scope": "post_hoc_descriptive_action_and_independent_metric_audit",
+  "source_inputs": {
+    "derived/arkansas/private_outcomes.csv": "93ceb08724ff6d6c32742eaaf4479ed0e44312e6c7c5b28a6ad0c036cdf983ab",
+    "derived/cohort/all_public_metadata.csv": "33964c6ea9414c420d624da4178ce87e4a74c7acafeb07df432843cd47ca3a22",
+    "derived/uruguay/private_outcomes.csv": "8863971e57a6b79e279ad077f21b9449d7e0c0527ea1095ac87cb5867ca70b6e",
+    "outputs/run_a/evaluation_events.jsonl.gz": "3aa87b25137ae1f7b3a9b51a17ec02d7f744391bfcc7e285d25eb3bbcb0a7717",
+    "outputs/run_a/evaluation_freeze.json": "a8bc5b3621171f33fde57730653e1cd4f55fc52fef1bd46d703a4755ec09dc65",
+    "outputs/run_a/frozen_initial_predictions.csv": "b281d7db9a00ea00cc122f41047c67f1f567a909f24ec5a2c486737780b808f5",
+    "outputs/run_a/frozen_public_candidates.csv": "461a1864a1f8e2089ac4aa8251f0771194b74d2bbd9cc70e8d7ff2df2126e9d8",
+    "outputs/run_a/per_pool_results.csv": "d4e2c9d66652da38d2e71a0944de8f0bfc1eb0f8da1094fa459257084d56a356",
+    "outputs/run_a/selected_configuration.json": "1e61539ca24190e2da0f1f5c2f4264217f53e6356989d936b6c4cb00348baeec",
+    "protocol/split_manifest.csv": "cb511b3891d659eceb0f66532a71f5974833cf71a0d37293210ef8fae433c8d0"
+  },
+  "static_second_batch": "not_applicable",
+  "status": "pass"
+}

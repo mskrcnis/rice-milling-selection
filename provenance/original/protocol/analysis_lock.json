@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-11-20T17:17:06.972972+00:00",
+  "metadata": {
+    "status": "Final before first held-out modeling evaluation",
+    "tests": "113 passed in8.80s; independent aggregate verifier separately passed synthetic reconstruction and corruption checks",
+    "primary": "mixed-based two_batch versus locked mixed static at25%; same-first-batch no_update",
+    "secondary": "development-selected trees_20,u0.25,shrinkage8 with own no-update",
+    "outcome_separation": "Modeling lead has seen development outcomes only. Source reviewers are exposed."
+  },
+  "files": {
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/protocol/analysis_protocol.md": "4525a54fabaeda5440009bf9ed361e1c12b5fb20e88190e463fcded3a2450d47",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/protocol/deviations.md": "dc75e253cf7ec368f9a156059c381dc9d57e0092fd10bd8436a41eda932a2417",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/protocol/cohort_lock.json": "ba699a18614938dbc6540b891ac853397021b8a066926bdb4881d9d53b6276cb",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/protocol/selected_configuration.json": "1e61539ca24190e2da0f1f5c2f4264217f53e6356989d936b6c4cb00348baeec",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/protocol/development_input_lock.json": "1a8fb1f5ae90e2c20857cfdc81c35160a6f254ffed76d23ae9a0215afc31e5ff",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/src/common.py": "eb6c86f57bfb88594f7106ad0a60a15ce12979f15b4e689a307753998dc12a0a",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/src/data.py": "60fd985dc5d5227666f4b9f784bcdd7fc4f0d92549319fa09b3a522c547e68bd",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/src/models.py": "a98078b9463505a0cf446cdc1e8fdcb4b4690c12ce420053a11b1d0ab04db365",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/src/replay.py": "eaf438b5361fe0c1fca29d509aee40f7f513d349f6af964febd2e71d9b107ed7",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/src/experiment.py": "01d04cbc0b9daa3c92b78c0521b0839655a2e8692d400fba4c6a3dd11e20426d",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/src/analysis.py": "de0da6670e15eab3141c37c5021fd2cd7a4d2d76d36b4a9edf94bb0b545f6820",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/src/verify.py": "688df931a186a90e32b0bcbc22d7abd65b486a1e263c5a4285a4811171510382",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/src/verify_tables.py": "61bb9181a8c75ab4ed0e580e075a822aee9d773f92060e7638daf42319b209a7",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/src/diagnostics.py": "ccca9b1936f9c64f409fa478678744a7e62f2f896effd1da626a7846249bcf22",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/src/sensitivity.py": "a46396845b0c902868d0264277ba8cbc498c31483a552405543da51720f47a8c",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/tests/test_arkansas_extraction.py": "6315b98b325bcd89c07bfb94abc26966b918a6b05635368b5359eddfc8765f5e",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/tests/test_diagnostics.py": "5657b6e4fd18bfb0f605c2646cdf2fd51aeff429e4e199d50d0727d0de1663da",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/tests/test_replay.py": "d91d9f7147c56a0c558472ca91f5a29359b774fa2351be6aa3318ea492e0adf1",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/tests/test_sensitivity.py": "e9c38e603d4bae0fd1fde8a46ae745e4c404cf3069c0512ac43705e803b62a97",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/tests/test_verification.py": "7598eaafe1e6da6c305f816b5caa1c49880a90ffdabc5fbc9eed46b6dad4e839",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/requirements.lock": "9621661171261e348837699d00446ceb83dbc0a56e54d47fcf509585f0c87132",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/logs/analysis_lock_tests.log": "cded6ca10359267e885f1a45ca8d61ee2f58f40296414192d210ea45cea33f9f"
+  }
+}

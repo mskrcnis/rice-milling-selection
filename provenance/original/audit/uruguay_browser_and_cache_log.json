@@ -1,0 +1,20 @@
+{
+  "recorded_utc": "2026-11-20T16:56:47.461248+00:00",
+  "browser_route": "Chrome official Dryad landing via computer-use tool",
+  "browser_result": "browser access host unavailable",
+  "cache_scope": [
+    "/home/mskr/Downloads",
+    "/home/mskr/Documents",
+    "/home/mskr/Research"
+  ],
+  "cache_patterns": [
+    "Phenotypes.txt",
+    "Trials.txt",
+    "Lines.txt",
+    "*x69p8czn8*",
+    "*PMGA*",
+    "*INIA*"
+  ],
+  "cache_result": "No matching original data files before current acquisition",
+  "contacts_sent": false
+}

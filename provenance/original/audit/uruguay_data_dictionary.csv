@@ -1,0 +1,18 @@
+source_variable,derived_variable,visibility,definition,locator
+YEAR,year,public,integer harvest year;2020 denotes2019–2020 season,README Trials table
+TRIAL,trial/pool_id,public,trial string unique within year and location; combine with YEAR+LOCATION,README Trials table
+LOCATION,site,public,coded trial location; no location names guessed,README Trials table
+LINE_ID,candidate_id,public,unique line code; same line appears in multiple pools; one candidate within pool,README Lines table
+BLOCK,replicate_count,public,"distinct observed block count, separately preserve number of source observations",README Phenotypes table
+GY,field_yield,public,kg/ha; arithmetic mean of positive finite observed values; moisture basis unspecified,README Phenotypes table
+PH,plant_height_cm,public,cm from soil surface to flag-leaf tip; mean observed values,README Phenotypes table
+DTF,days_to_flowering,public,days between sowing and50-percent-heading date; mean observed values,README Phenotypes table
+EVALUATION_STAGE,stage,public,source code preserved; EF vs README FE unresolved; E5/E6 remain separate codes,Trials.txt +README
+GERMPLASM_TYPE,germplasm_type/grain_class,public,source botanical/program grain-quality class; no direct Arkansas market mapping,README Lines table
+SOWING_DATE/HARVEST_DATE,sowing_date/harvest_date,public,source yyyy-mm-dd dates; missing stays missing,README Trials table
+PHR,hr_percent/hr_fraction,private,"percentage whole milled rice; divided by100; rough-rice denominator supported by same-program Monteverde2018, not explicit archivewide",README + DOI10.2135/cropsci2017.09.0564 p1521
+YAM,total_milled_recovery_percent,private,percentage milled kernels; separate measurement from whole-kernel recovery,README Phenotypes table
+GY and PHR,output_product_of_means,private,mean GY times mean PHR/100; kg/ha proxy with moisture unspecified,analysis derivation conditional on rough-rice PHR denominator
+GY and PHR,output_mean_of_matched_plot_products,private,mean source-plot GY*PHR/100 restricted to jointly measured plots,analysis sensitivity
+GC/SM/LW_RATIO/AC/ADV,not public features,private,milling and grain-quality outcomes; timing unsuitable for field-only decision,README Phenotypes table
+HERITABILITY/CV/GENETIC_VARIANCE/RESIDUAL_VARIANCE,excluded from features,excluded,trial-wide yield-derived statistical summaries,README Trials table

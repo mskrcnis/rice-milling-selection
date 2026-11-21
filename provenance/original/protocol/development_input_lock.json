@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-11-20T17:01:06.659694+00:00",
+  "metadata": {
+    "cutoffs": {
+      "initial_training_last_year": 2011,
+      "rolling_development_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "reserved_temporal_years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    "counts": {
+      "development_rows_including_training": 26855,
+      "pools": 727
+    },
+    "class_transfer": "Primary learned predictors use within-pool relative yield/rank only; source classes are deliberately not cross-mapped. Source-class-history baseline uses source namespaced quality groups with global fallback.",
+    "normalization": "Yield relative/rank computed using all compatible observed-field entries before paired-answer restriction.",
+    "scope": "Uruguay development input and split lock only. Arkansas extraction still undergoing independent source verification; final global cohort lock will precede all evaluation."
+  },
+  "files": {
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/derived/uruguay/public_features.csv": "338838a3180e725f728c40c8992de36ad500ca772650a651f9d69c7d974731cc",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/derived/uruguay/private_outcomes.csv": "8863971e57a6b79e279ad077f21b9449d7e0c0527ea1095ac87cb5867ca70b6e",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/derived/cohort/development_public.csv": "d2647cf81eeb8a20d5bcfeca8b9fceb142ed1ec7e8a64f11c5d31bfc7b12b13c",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/private/development_labels.csv": "91e9d025dda49cf441ea41ebf205df8c1a833269ab82279b49617c0a05fd8e24",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/protocol/design_before_data.md": "e0556a345d204e85f66902b0b26963f54da628e42581ab95561b1ab79ade379a",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/protocol/development_split_manifest.csv": "232308ff7b938297325ca18c4cf489c209f7f92f87117b25b027a46b7290f06e",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/requirements.lock": "9621661171261e348837699d00446ceb83dbc0a56e54d47fcf509585f0c87132"
+  }
+}

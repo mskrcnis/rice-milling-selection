@@ -1,0 +1,76 @@
+[
+  {
+    "name": "dryad_version.json",
+    "url": "https://datadryad.org/api/v2/versions/248051",
+    "retrieved_utc": "2026-11-20T16:44:47.829938+00:00",
+    "dataset_doi": "10.5061/dryad.x69p8czn8",
+    "version_id": 248051,
+    "license": "CC0-1.0",
+    "path": "raw/uruguay/dryad_version.json",
+    "status": "downloaded",
+    "http_status": 200,
+    "resolved_url": "https://datadryad.org/api/v2/versions/248051",
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "8586b971cb6051b2c9dc9f310c1aab9880bef869f8d7f894092bfa54b57e6706",
+    "bytes": 6589
+  },
+  {
+    "name": "dryad_files.json",
+    "url": "https://datadryad.org/api/v2/versions/248051/files",
+    "retrieved_utc": "2026-11-20T16:44:47.830631+00:00",
+    "dataset_doi": "10.5061/dryad.x69p8czn8",
+    "version_id": 248051,
+    "license": "CC0-1.0",
+    "path": "raw/uruguay/dryad_files.json",
+    "status": "downloaded",
+    "http_status": 200,
+    "resolved_url": "https://datadryad.org/api/v2/versions/248051/files",
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "41444885cc65df84f3ba951efdeec032c9913689e46a599c1fd736b1c86d6a3a",
+    "bytes": 3921
+  },
+  {
+    "name": "README.md",
+    "url": "https://datadryad.org/downloads/file_stream/2465930",
+    "retrieved_utc": "2026-11-20T16:44:47.831043+00:00",
+    "dataset_doi": "10.5061/dryad.x69p8czn8",
+    "version_id": 248051,
+    "license": "CC0-1.0",
+    "path": "raw/uruguay/README.md",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Phenotypes.txt",
+    "url": "https://datadryad.org/downloads/file_stream/2465928",
+    "retrieved_utc": "2026-11-20T16:44:47.831387+00:00",
+    "dataset_doi": "10.5061/dryad.x69p8czn8",
+    "version_id": 248051,
+    "license": "CC0-1.0",
+    "path": "raw/uruguay/Phenotypes.txt",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Trials.txt",
+    "url": "https://datadryad.org/downloads/file_stream/2465926",
+    "retrieved_utc": "2026-11-20T16:44:47.831772+00:00",
+    "dataset_doi": "10.5061/dryad.x69p8czn8",
+    "version_id": 248051,
+    "license": "CC0-1.0",
+    "path": "raw/uruguay/Trials.txt",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Lines.txt",
+    "url": "https://datadryad.org/downloads/file_stream/2465924",
+    "retrieved_utc": "2026-11-20T16:44:47.832211+00:00",
+    "dataset_doi": "10.5061/dryad.x69p8czn8",
+    "version_id": 248051,
+    "license": "CC0-1.0",
+    "path": "raw/uruguay/Lines.txt",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

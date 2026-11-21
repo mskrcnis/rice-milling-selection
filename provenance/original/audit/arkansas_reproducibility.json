@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-11-20T17:06:23.799594+00:00",
+  "clean_preparation_runs": 2,
+  "identical_csv_files": 9,
+  "byte_identical": true,
+  "sha256": {
+    "derived/arkansas/private_all_extracted_cells.csv": "e66401ae43af933e7560b4652ada5e583a452f5314b41a6e732922ba8c881f8b",
+    "derived/arkansas/private_duplicate_audit.csv": "7e997fc357f14222960fcc32711b73b47dd20deacb4d9daad2e3a7817f8b2d55",
+    "derived/arkansas/private_independent_text_geometry.csv": "fa6c039c2a1ac1690037f95d677d18f7e09cca112ebc20ae528c1bd7a02dae83",
+    "derived/arkansas/private_outcomes.csv": "93ceb08724ff6d6c32742eaaf4479ed0e44312e6c7c5b28a6ad0c036cdf983ab",
+    "derived/arkansas/public_features.csv": "3225537e41bd6c192aa79af787a90a29d03429f51a3ae0615d44de27f7841a27",
+    "audit/arkansas_coverage.csv": "0882d05b9cce30c119368bfedea0f665b28f3b603b92863bbf391010caee75ca",
+    "audit/arkansas_excluded_tables.csv": "e96a8b84adc9bcd333ab30ddb03a530198ebd2df164ae72006cc340a5d18df9d",
+    "audit/arkansas_independent_table_row_checks.csv": "1946038c13a4111cb50f1660e1600a849a97d4ac851fc42271dc62f9e7486448",
+    "audit/arkansas_year_screen.csv": "a0f7a73f5260122db50583ae218a146589943ec1b8903afb0be29d5f21ea5c0f"
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://datadryad.org/data_file/preview/2465928",
+    "retrieved_utc": "2026-11-20T16:50:32.111622+00:00",
+    "status": 200,
+    "path": "raw/uruguay/phenotypes_preview.js",
+    "sha256": "f2a5dda99241257d3095db2528f001e37f0fae1d3dfe013066ac2782a9196724"
+  },
+  {
+    "url": "https://cn.dataone.org/cn/v2/object/sha256%3A926d1ace6cbd45c11bc6b892fd37e9da0f571b3755a95f4788135ec3da1b20a8",
+    "retrieved_utc": "2026-11-20T16:50:32.112948+00:00",
+    "status": 200,
+    "path": "raw/uruguay/dataone_metadata0.json",
+    "sha256": "926d1ace6cbd45c11bc6b892fd37e9da0f571b3755a95f4788135ec3da1b20a8"
+  },
+  {
+    "url": "https://cn.dataone.org/cn/v2/object/sha256%3Aa410e7157ea00534f4a9e5b86157fc7947a5974a0b4be320dd8ab52e5329b31e",
+    "retrieved_utc": "2026-11-20T16:50:32.113749+00:00",
+    "status": 200,
+    "path": "raw/uruguay/dataone_metadata1.json",
+    "sha256": "a410e7157ea00534f4a9e5b86157fc7947a5974a0b4be320dd8ab52e5329b31e"
+  }
+]

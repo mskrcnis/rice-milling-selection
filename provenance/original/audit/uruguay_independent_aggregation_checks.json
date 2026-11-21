@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "all_rows_covered": true,
+    "yield_means_equal": true,
+    "hr_means_equal": true,
+    "product_of_means_equal": true,
+    "mean_matched_products_equal": true,
+    "one_pool_per_source_trial": true,
+    "no_numeric_milling_fields_public": true
+  },
+  "source_sha256": "8e587890c3d5d479f4f43b7202eb365c4b866f4fe6f15c5d709ff2bc3eb33d0b",
+  "candidate_count_checked": 38480,
+  "method": "separate vectorized pandas groupby recomputation from original source, no public means used for private recomputation"
+}

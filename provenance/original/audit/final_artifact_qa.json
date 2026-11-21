@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-20T17:39:11.742764+00:00",
+  "documents": {
+    "outputs/run_a": {
+      "pdf_sha256": "399417052061063a3f0445e8334f5d4c48bd5e2f15300b4cb443679828b26768",
+      "pages": 11,
+      "latex_diagnostics": [],
+      "html_sha256": "d9fd0ed65446245979aa2a39be3930d04d741e45255527bb9422546ed09fab7e",
+      "local_links_checked": [
+        "../figures/paired_effects.png",
+        "../manuscript/rice_milling_selection.pdf",
+        "../figures/policy_budget_top_k_recall.svg",
+        "../figures/policy_budget_regret_pct.svg"
+      ]
+    },
+    "outputs/run_b": {
+      "pdf_sha256": "399417052061063a3f0445e8334f5d4c48bd5e2f15300b4cb443679828b26768",
+      "pages": 11,
+      "latex_diagnostics": [],
+      "html_sha256": "d9fd0ed65446245979aa2a39be3930d04d741e45255527bb9422546ed09fab7e",
+      "local_links_checked": [
+        "../figures/paired_effects.png",
+        "../manuscript/rice_milling_selection.pdf",
+        "../figures/policy_budget_top_k_recall.svg",
+        "../figures/policy_budget_regret_pct.svg"
+      ]
+    }
+  },
+  "same_latex_sources_and_pdf_page_text": true,
+  "visual_review": {
+    "all_11_pages_contact_sheet": "inspected",
+    "enlarged_pages": [
+      1,
+      5,
+      8,
+      10,
+      11
+    ],
+    "finding": "No observed clipping, overlap, malformed tables, unresolved citations or unreadable glyphs. Tables, source-linked references and five figures checked. Final CC0 typography corrected and rerendered.",
+    "scope": "Run A rendered and visually reviewed; run B has identical LaTeX sources, page text, figure bytes and page count, and a clean compile."
+  },
+  "render_sha256": {
+    "audit/pdf_qa/contact.png": "7cfa212ad60c101cf90f6ff2dbbfcbbeae06905085c83e4109877b6ea55ba643",
+    "audit/pdf_qa/page-01.png": "92a7860519ed07d88b9cb4a388d7244267ba5f73b3c308b9e40cdb3a18065b59",
+    "audit/pdf_qa/page-02.png": "56dfe8a35de25a1e2b09379a08947e848091d308648dc01edd0dcab80f815c7b",
+    "audit/pdf_qa/page-03.png": "d97f2cb447c2f9154162305f09461f9d0c1bce03018e5187b4839d6426f531c3",
+    "audit/pdf_qa/page-04.png": "bfd1a57652e51855d5af92437e808b8c067644af4b4f266d91723023d306d99f",
+    "audit/pdf_qa/page-05.png": "79c2e980a6b79dd33251116698a7f6ac151bb7af712e4fa5573a338aebf9d9fd",
+    "audit/pdf_qa/page-06.png": "2b55db038e5b2bff77496d39e5f0862060a2533ea9d1701ca4fd2eea7abfc4dd",
+    "audit/pdf_qa/page-07.png": "d0e3247dff71883f7701bc6d895245d961b83e7d3439c46c245c0d745e2743ac",
+    "audit/pdf_qa/page-08.png": "e79ad54e0308d77fbdf94c235ced0976a8dfbda947873a57bf26c81a74beaa07",
+    "audit/pdf_qa/page-09.png": "cdb7f975ae40fc64619a4c25beef6cf0db294af4ef3a67fce7fafac969e28324",
+    "audit/pdf_qa/page-10.png": "0a79aa59147f42a42ceac5fc236d4044e8890f20014e8edcc652846daa2bb176",
+    "audit/pdf_qa/page-11.png": "b7e411d6887e2dfc7b8a5e511d4463b1c8709880a3df65f80c046e70b3974894"
+  },
+  "pdflatex": "pdfTeX 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian)",
+  "pdftoppm": "pdftoppm version 24.02.0",
+  "placeholder_scan": "passed",
+  "scientific_numerical_review": "audit/results_peer_review.md; independently verified source tables"
+}

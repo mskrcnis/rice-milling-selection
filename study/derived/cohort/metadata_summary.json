@@ -1,0 +1,51 @@
+{
+  "arkansas_compromised": {
+    "rows": 175,
+    "pools": 6,
+    "sites": 6,
+    "years": 3,
+    "lines": 48
+  },
+  "arkansas_external": {
+    "rows": 1611,
+    "pools": 62,
+    "sites": 16,
+    "years": 9,
+    "lines": 87
+  },
+  "arkansas_pre_cutoff": {
+    "rows": 218,
+    "pools": 13,
+    "sites": 5,
+    "years": 3,
+    "lines": 22
+  },
+  "arkansas_previously_seen": {
+    "rows": 29,
+    "pools": 1,
+    "sites": 1,
+    "years": 1,
+    "lines": 29
+  },
+  "development": {
+    "rows": 10542,
+    "pools": 273,
+    "sites": 5,
+    "years": 5,
+    "lines": 5628
+  },
+  "initial_training": {
+    "rows": 16313,
+    "pools": 454,
+    "sites": 4,
+    "years": 14,
+    "lines": 8536
+  },
+  "uruguay_temporal": {
+    "rows": 7568,
+    "pools": 188,
+    "sites": 4,
+    "years": 4,
+    "lines": 4598
+  }
+}

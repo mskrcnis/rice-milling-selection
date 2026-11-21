@@ -1,0 +1,33 @@
+[
+  {
+    "name": "dryad_zip_assembly.json",
+    "url": "https://datadryad.org/downloads/zip_assembly_info/248051",
+    "retrieved_utc": "2026-11-20T16:45:57.064173+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "redata_ddi.xml",
+    "url": "https://redata.anii.org.uy/api/access/datafile/344/metadata/ddi",
+    "retrieved_utc": "2026-11-20T16:45:57.064793+00:00",
+    "http_status": 200,
+    "resolved_url": "https://redata.anii.org.uy/api/access/datafile/344/metadata/ddi",
+    "content_type": "text/xml;charset=UTF-8",
+    "status": "downloaded",
+    "path": "raw/uruguay/redata_ddi.xml",
+    "sha256": "fb22012b03da66d48d65accc6a60702d52e3c34b5850e1717d876f72d4aff6f3",
+    "bytes": 78197
+  },
+  {
+    "name": "redata_original.csv",
+    "url": "https://redata.anii.org.uy/api/access/datafile/344?format=original",
+    "retrieved_utc": "2026-11-20T16:45:57.065105+00:00",
+    "http_status": 200,
+    "resolved_url": "https://redata.anii.org.uy/api/access/datafile/344?format=original",
+    "content_type": "text/csv; name=\"PMGA_BD_INIA.csv\";charset=UTF-8",
+    "status": "downloaded",
+    "path": "raw/uruguay/redata_original.csv",
+    "sha256": "79550c69c58f1cdc592db47494414ab6a2289f54ff92979635e863ad73ef795d",
+    "bytes": 64247803
+  }
+]

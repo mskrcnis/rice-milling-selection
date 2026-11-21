@@ -1,0 +1,7 @@
+{
+  "url": "https://redata.anii.org.uy/api/search?q=%22Rice+Breeding+Program+Historical+Dataset%22&type=dataset",
+  "status": 200,
+  "path": "raw/uruguay/redata_search_original.json",
+  "sha256": "513a19dfcdcc6a72d358e06da524e10e9710fb6b796fd2efb124d01daa1dd693",
+  "retrieved_utc": "2026-11-20T16:51:41.926365+00:00"
+}

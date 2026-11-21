@@ -1,0 +1,118 @@
+{
+  "name": "Post hoc Arkansas source-rounding diagnostic",
+  "version": 1,
+  "created_utc": "2026-11-20T18:11:09.198924+00:00",
+  "post_hoc": true,
+  "original_root": "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection",
+  "revision_root": "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection_crop_science_revision",
+  "original_project_read_only": true,
+  "cohort": {
+    "stratum": "arkansas_external",
+    "pools": 62,
+    "observed_answer_entries": 1611,
+    "subsets": {
+      "historical_2017_2020": {
+        "pools": 19,
+        "answers": 447,
+        "observed_fields": 551
+      },
+      "contemporary_2021_2025": {
+        "pools": 43,
+        "answers": 1164,
+        "observed_fields": 1164
+      }
+    }
+  },
+  "rounding": {
+    "yield_half_width_bu_ac": 0.5,
+    "hr_half_width_percentage_points": 0.5,
+    "yield_conversion": "45 * 0.45359237 / 0.40468564224",
+    "yield_moisture_percent": 12,
+    "hr_clip": [
+      0,
+      100
+    ],
+    "interval": "closed feasible rounding rectangle; no measurement-error distribution claimed"
+  },
+  "budgets": [
+    0.1,
+    0.2,
+    0.25,
+    0.4,
+    0.6,
+    1.0
+  ],
+  "shortlist_fraction": 0.1,
+  "budget_rule": "min(n,max(ceil(0.1*n),ceil(f*n)))",
+  "mean_recall_target": 0.9,
+  "tie_rule": "ascending SHA256(rice-milling-tie-v1|row_id) after descending score",
+  "policy": "yield-first only; original policies and main comparisons unchanged",
+  "fixed_query": {
+    "tested_sets": "original recorded yield-first sets, independently validated against original source yield ranking",
+    "worst_corner": "tested yield/HR lower endpoints; untested upper endpoints",
+    "best_corner": "tested yield/HR upper endpoints; untested lower endpoints",
+    "metrics": [
+      "top_k_recall",
+      "relative_regret_pct",
+      "native_regret_kg_ha"
+    ],
+    "proof": "For fixed Q, increasing a tested value cannot increase regret or relative regret or reduce oracle top-k membership in Q; increasing an untested value has the reverse order. Hence corners attain marginal metric extrema.",
+    "scope": "Sharp fixed-query extrema pointwise per budget; different budgets use different corners. Envelope grid crossings summarize possible/guaranteed threshold positions, not one common attained curve."
+  },
+  "joint_perturbation": {
+    "draws": 20000,
+    "master_seed": 20261120,
+    "generator": "numpy PCG64",
+    "per_pool_seed": "int.from_bytes(SHA256(rounding-diagnostic-v1|20261120|pool_id)[:16],little)",
+    "distribution": "independent uniform offsets inside each candidate source-rounding rectangle; a transparent sensitivity design, not estimated measurement uncertainty",
+    "candidate_order": "ascending frozen SHA tie rank",
+    "draw_order": "draw,candidate,(yield,HR)",
+    "same_yield_for_query_and_scoring": true,
+    "same_candidate_realization_for_all_budgets": true,
+    "same_draw_index_combined_across_independent_per_pool_streams": true,
+    "reported_summaries": [
+      "sample minimum",
+      "2.5th percentile",
+      "median",
+      "97.5th percentile",
+      "sample maximum",
+      "mean"
+    ],
+    "interpretation": "Scenario summaries only; no guaranteed joint bounds, confidence intervals or p-values."
+  },
+  "deterministic_joint_scenarios": {
+    "global_corners": "all four combinations of yield offset +/-0.5 and HR offset +/-0.5",
+    "budget_targeted_corners": "both fixed-query best and worst corner realizations for every six-budget queried set, then recompute yield-first queries using that same realized yield and score with the same yield/HR",
+    "total": 16,
+    "interpretation": "Predeclared symmetric feasible stress scenarios, not exhaustive joint bounds"
+  },
+  "aggregation": "equal weight per original pool; subset counts fixed; random scenarios do not create independent field trials",
+  "uruguay_reference": "fixed original yield-first values in188 temporal pools; no Uruguay precision perturbation or cross-program absolute-unit comparison",
+  "independent_checks": {
+    "fixed_corner": "scalar Python/math.fsum implementation for every pool x budget x corner",
+    "joint_draw_indices_zero_based": [
+      0,
+      1,
+      2,
+      9,
+      99,
+      999,
+      9999,
+      19999
+    ],
+    "deterministic_scenarios": "scalar implementation for all pools x scenarios x budgets",
+    "synthetic": "small exhaustive product-rectangle vertices to validate fixed-query monotonic extrema"
+  },
+  "input_sha256": {
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/derived/cohort/evaluation_public.csv": "461a1864a1f8e2089ac4aa8251f0771194b74d2bbd9cc70e8d7ff2df2126e9d8",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/private/evaluation_key.csv": "52cff8cbdab400edc4ab1f01b3bfe3ad004f8ac02014c4800ea863ef1ec080e8",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/derived/arkansas/public_features.csv": "3225537e41bd6c192aa79af787a90a29d03429f51a3ae0615d44de27f7841a27",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/outputs/run_a/per_pool_results.csv": "d4e2c9d66652da38d2e71a0944de8f0bfc1eb0f8da1094fa459257084d56a356",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/outputs/run_a/evaluation_events.jsonl.gz": "3aa87b25137ae1f7b3a9b51a17ec02d7f744391bfcc7e285d25eb3bbcb0a7717",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/outputs/run_a/evaluation_freeze.json": "a8bc5b3621171f33fde57730653e1cd4f55fc52fef1bd46d703a4755ec09dc65",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/outputs/run_a/sensitivity/paired_coverage_sensitivity.csv": "bc5c0c3bb3840f27dd6c7d91177d34ebe5de47074187849302b724894d7cb7ca",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/outputs/run_a/tables/policy_summary.csv": "869136c947e16acad5008a5d561167d2daa3bafe1489a62b6c363294b5521b9c",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/protocol/analysis_protocol.md": "4525a54fabaeda5440009bf9ed361e1c12b5fb20e88190e463fcded3a2450d47",
+    "/home/mskr/Research/Agro/Precision Farming/paper1_rice_milling_selection/audit/sensitivity_design.md": "dea06d15093b65539c19afccdaa47b6e30d269d9d26b3a53330dc78ca9be9335"
+  }
+}

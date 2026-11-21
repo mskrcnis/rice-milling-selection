@@ -1,0 +1,142 @@
+{
+  "status": "pass",
+  "comparison": "two clean executions of post hoc diagnostics",
+  "artifact_count": 19,
+  "artifacts": [
+    {
+      "diagnostic": "actions",
+      "file": "action_comparison_summary.csv",
+      "sha256": "6057a45e639de441e19d5bf30fe12a235c69c09d8df31619d00962194e0bd9cd",
+      "repeat_sha256": "6057a45e639de441e19d5bf30fe12a235c69c09d8df31619d00962194e0bd9cd",
+      "identical": true
+    },
+    {
+      "diagnostic": "actions",
+      "file": "coverage_summary.csv",
+      "sha256": "c865aa9e2af56bef25ea2f52af6483150a563ec5211d18325b16b157838f93a1",
+      "repeat_sha256": "c865aa9e2af56bef25ea2f52af6483150a563ec5211d18325b16b157838f93a1",
+      "identical": true
+    },
+    {
+      "diagnostic": "actions",
+      "file": "first_measured_grid_crossing.csv",
+      "sha256": "65f1b28bb8081f5e6ab6e8cc0477892e8db94660d2302303201b7f71a4885ac1",
+      "repeat_sha256": "65f1b28bb8081f5e6ab6e8cc0477892e8db94660d2302303201b7f71a4885ac1",
+      "identical": true
+    },
+    {
+      "diagnostic": "actions",
+      "file": "headline_and_period_metrics.csv",
+      "sha256": "78a22a158867bc9f9c68454bcb2ecad7482b251c3573e6e755ffe4e728e5eeb9",
+      "repeat_sha256": "78a22a158867bc9f9c68454bcb2ecad7482b251c3573e6e755ffe4e728e5eeb9",
+      "identical": true
+    },
+    {
+      "diagnostic": "actions",
+      "file": "independently_recomputed_metrics.csv",
+      "sha256": "7e338cc13d1597e52ef7c59d831f778352a0ac90531eb0361a99fe590af8d05d",
+      "repeat_sha256": "7e338cc13d1597e52ef7c59d831f778352a0ac90531eb0361a99fe590af8d05d",
+      "identical": true
+    },
+    {
+      "diagnostic": "actions",
+      "file": "pool_action_comparisons.csv",
+      "sha256": "d79ff91116ee03668655a1442de84b2e08f8ed74efb6a6ea0afbee5d6db96eb2",
+      "repeat_sha256": "d79ff91116ee03668655a1442de84b2e08f8ed74efb6a6ea0afbee5d6db96eb2",
+      "identical": true
+    },
+    {
+      "diagnostic": "actions",
+      "file": "pool_coverage.csv",
+      "sha256": "c1e62a260806f5a6ef838d4d2210cd7b3111c7d14489dbeda35437092b5ada4f",
+      "repeat_sha256": "c1e62a260806f5a6ef838d4d2210cd7b3111c7d14489dbeda35437092b5ada4f",
+      "identical": true
+    },
+    {
+      "diagnostic": "actions",
+      "file": "secondary_feedback_regret_exceptions.csv",
+      "sha256": "a379c97f5b8f9e74557b8c3c6f7024604a4801a1a670c644a7ac540a61789209",
+      "repeat_sha256": "a379c97f5b8f9e74557b8c3c6f7024604a4801a1a670c644a7ac540a61789209",
+      "identical": true
+    },
+    {
+      "diagnostic": "breeder",
+      "file": "breeder_arkansas_periods.png",
+      "sha256": "0cc13faab47f1057015125ad1478be11a8eb6b7cbf84aef267e06a003284e08c",
+      "repeat_sha256": "0cc13faab47f1057015125ad1478be11a8eb6b7cbf84aef267e06a003284e08c",
+      "identical": true
+    },
+    {
+      "diagnostic": "breeder",
+      "file": "breeder_arkansas_periods.svg",
+      "sha256": "a34c384958ff05d770b3ff2d5752a8269400ef109deb5bc46b7174838f3c0d7e",
+      "repeat_sha256": "a34c384958ff05d770b3ff2d5752a8269400ef109deb5bc46b7174838f3c0d7e",
+      "identical": true
+    },
+    {
+      "diagnostic": "breeder",
+      "file": "breeder_denominator_comparison.png",
+      "sha256": "6e0016ae996d557f21cb2e8472b31eecbccc35c1ebbea7ca589781abaaced6fa",
+      "repeat_sha256": "6e0016ae996d557f21cb2e8472b31eecbccc35c1ebbea7ca589781abaaced6fa",
+      "identical": true
+    },
+    {
+      "diagnostic": "breeder",
+      "file": "breeder_denominator_comparison.svg",
+      "sha256": "9f5ec8597e6a92d2a4eea71983a6b4f20539bfdfa1145cc7ea766c7eabdb46c9",
+      "repeat_sha256": "9f5ec8597e6a92d2a4eea71983a6b4f20539bfdfa1145cc7ea766c7eabdb46c9",
+      "identical": true
+    },
+    {
+      "diagnostic": "breeder",
+      "file": "breeder_field_yield_ranks.pdf",
+      "sha256": "30af9531e7344291d072fca19fe134e51c2edee1db127373eb3a6010abba3061",
+      "repeat_sha256": "30af9531e7344291d072fca19fe134e51c2edee1db127373eb3a6010abba3061",
+      "identical": true
+    },
+    {
+      "diagnostic": "breeder",
+      "file": "breeder_field_yield_ranks.png",
+      "sha256": "5215c67caefda754912708bce2cc26f54c8a5df807cb6fcd89d66a54cda4d8b0",
+      "repeat_sha256": "5215c67caefda754912708bce2cc26f54c8a5df807cb6fcd89d66a54cda4d8b0",
+      "identical": true
+    },
+    {
+      "diagnostic": "breeder",
+      "file": "breeder_field_yield_ranks.svg",
+      "sha256": "7a442831f9dc01fb83263af82b09eb463a1e63a393df63a8e2d297edae09303b",
+      "repeat_sha256": "7a442831f9dc01fb83263af82b09eb463a1e63a393df63a8e2d297edae09303b",
+      "identical": true
+    },
+    {
+      "diagnostic": "breeder",
+      "file": "pool_equal_ecdf_data.csv",
+      "sha256": "19bb386ecab64c943caeac6ea069a3bf7166af07229749bf4aec7a76365c62b9",
+      "repeat_sha256": "19bb386ecab64c943caeac6ea069a3bf7166af07229749bf4aec7a76365c62b9",
+      "identical": true
+    },
+    {
+      "diagnostic": "breeder",
+      "file": "pool_reference_coverage.csv",
+      "sha256": "c9d9fc5fa9f213c5fb6b7498a8dfd6990e3c5ec910faeccadbe4f77bfe8acc78",
+      "repeat_sha256": "c9d9fc5fa9f213c5fb6b7498a8dfd6990e3c5ec910faeccadbe4f77bfe8acc78",
+      "identical": true
+    },
+    {
+      "diagnostic": "breeder",
+      "file": "rank_display_summary.csv",
+      "sha256": "a617c93d1c75a0d2a69936b3b3f01dcb93cee561b5d0baa19cef6c961db9247a",
+      "repeat_sha256": "a617c93d1c75a0d2a69936b3b3f01dcb93cee561b5d0baa19cef6c961db9247a",
+      "identical": true
+    },
+    {
+      "diagnostic": "breeder",
+      "file": "reference_entry_field_yield_ranks.csv",
+      "sha256": "1c93138c99a215ec959fa783b0509cbe4f065df2fa8e723ba648cbee0a3f7180",
+      "repeat_sha256": "1c93138c99a215ec959fa783b0509cbe4f065df2fa8e723ba648cbee0a3f7180",
+      "identical": true
+    }
+  ],
+  "source_input_hashes_preserved": true,
+  "visual_inspection": "Three rendered PNG figure layouts inspected; no clipping or overlapping content."
+}

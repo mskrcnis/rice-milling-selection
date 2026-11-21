@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://cn.dataone.org/cn/v2/query/solr/?q=id%3A%2Ax69p8czn8%2A&wt=json&rows=30",
+    "status": 200,
+    "path": "raw/uruguay/dataone_search0.json",
+    "sha256": "4fd35e3623e5b047270b5a418b78c459cba858c0c9e0304f76ea57da50e939d9",
+    "retrieved_utc": "2026-11-20T16:50:00.526600+00:00"
+  },
+  {
+    "url": "https://cn.dataone.org/cn/v2/query/solr/?q=text%3A%2Ax69p8czn8%2A&wt=json&rows=30",
+    "status": 200,
+    "path": "raw/uruguay/dataone_search1.json",
+    "sha256": "970a557867c64ed9803723d84c92fef10667bbfd5eb6eef91ed8f8dbc08086e2",
+    "retrieved_utc": "2026-11-20T16:50:05.325971+00:00"
+  },
+  {
+    "url": "https://cn.dataone.org/cn/v2/query/solr/?q=title%3A%22Instituto+Nacional+de+Investigaci%C3%B3n+Agropecuaria%22&wt=json&rows=30",
+    "status": 200,
+    "path": "raw/uruguay/dataone_search2.json",
+    "sha256": "1e2b9409b62ac21e6db6ba74f4f20279d2f06a935d0411ebe56b207dcc8952a2",
+    "retrieved_utc": "2026-11-20T16:49:59.658041+00:00"
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "path": "raw/uruguay/Lines.txt",
+    "url": "https://zenodo.org/api/records/8222856/files/Lines.txt/content",
+    "sha256": "644417788d35a4e236e084ecc24a230c9ed13c5896befdd052409470e6fed4f6",
+    "bytes": 1006798,
+    "status": "downloaded_verified",
+    "retrieved_utc": "2026-11-20T16:52:02.720312+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/Phenotypes.txt",
+    "url": "https://zenodo.org/api/records/8222856/files/Phenotypes.txt/content",
+    "sha256": "8e587890c3d5d479f4f43b7202eb365c4b866f4fe6f15c5d709ff2bc3eb33d0b",
+    "bytes": 9293354,
+    "status": "downloaded_verified",
+    "retrieved_utc": "2026-11-20T16:52:02.722408+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/README.md",
+    "url": "https://zenodo.org/api/records/8222856/files/README.md/content",
+    "sha256": "da3cee8cee3121dc1f90c8b86604a070eda7bc4e2215b6106329235e0488ea52",
+    "bytes": 11866,
+    "status": "downloaded_verified",
+    "retrieved_utc": "2026-11-20T16:52:02.721343+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/Trials.txt",
+    "url": "https://zenodo.org/api/records/8222856/files/Trials.txt/content",
+    "sha256": "2a75b0b5488fd243093bb4f6178e31142c0f42e8e739f58130782529f7dc103a",
+    "bytes": 64317,
+    "status": "downloaded_verified",
+    "retrieved_utc": "2026-11-20T16:52:02.720571+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/datacite_metadata.json",
+    "url": "https://api.datacite.org/dois/10.5061/dryad.x69p8czn8",
+    "sha256": "66818757e8dc5adcd61af333e905f47f590d9e3a92e5b9c6dcd5b3f06a01ae50",
+    "bytes": 19087,
+    "status": "downloaded",
+    "retrieved_utc": "2026-11-20T16:46:52.881746+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dataone_metadata0.json",
+    "url": "https://cn.dataone.org/cn/v2/object/sha256%3A926d1ace6cbd45c11bc6b892fd37e9da0f571b3755a95f4788135ec3da1b20a8",
+    "sha256": "926d1ace6cbd45c11bc6b892fd37e9da0f571b3755a95f4788135ec3da1b20a8",
+    "bytes": 6297,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:50:32.112948+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dataone_metadata1.json",
+    "url": "https://cn.dataone.org/cn/v2/object/sha256%3Aa410e7157ea00534f4a9e5b86157fc7947a5974a0b4be320dd8ab52e5329b31e",
+    "sha256": "a410e7157ea00534f4a9e5b86157fc7947a5974a0b4be320dd8ab52e5329b31e",
+    "bytes": 6309,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:50:32.113749+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dataone_search.json",
+    "url": "https://cn.dataone.org/cn/v2/query/solr/?q=x69p8czn8&wt=json&rows=100",
+    "sha256": "361bebfc0d16f5a30fe5dddfcc044e32cc72057db0295b2b1989e8640bad9715",
+    "bytes": 1537177,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:49:20.441157+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dataone_search0.json",
+    "url": "https://cn.dataone.org/cn/v2/query/solr/?q=id%3A%2Ax69p8czn8%2A&wt=json&rows=30",
+    "sha256": "4fd35e3623e5b047270b5a418b78c459cba858c0c9e0304f76ea57da50e939d9",
+    "bytes": 266,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:50:00.526600+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dataone_search1.json",
+    "url": "https://cn.dataone.org/cn/v2/query/solr/?q=text%3A%2Ax69p8czn8%2A&wt=json&rows=30",
+    "sha256": "970a557867c64ed9803723d84c92fef10667bbfd5eb6eef91ed8f8dbc08086e2",
+    "bytes": 13725,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:50:05.325971+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dataone_search2.json",
+    "url": "https://cn.dataone.org/cn/v2/query/solr/?q=title%3A%22Instituto+Nacional+de+Investigaci%C3%B3n+Agropecuaria%22&wt=json&rows=30",
+    "sha256": "1e2b9409b62ac21e6db6ba74f4f20279d2f06a935d0411ebe56b207dcc8952a2",
+    "bytes": 310,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:49:59.658041+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dryad_api.txt",
+    "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czn8",
+    "sha256": "f3a978f67a1b941e565f230a391a9ffab0381d992dc9ec419fcc861165f5dbbf",
+    "bytes": 6471,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:44:11.677988+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dryad_api_file_meta.json",
+    "url": "https://datadryad.org/api/v2/files/2465930",
+    "sha256": "cd99034103006ea18ef77001dc3d93b17d37056e205b85e75d2b642c71fbc6ff",
+    "bytes": 604,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:48:51.874086+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dryad_files.json",
+    "url": "https://datadryad.org/api/v2/versions/248051/files",
+    "sha256": "41444885cc65df84f3ba951efdeec032c9913689e46a599c1fd736b1c86d6a3a",
+    "bytes": 3921,
+    "status": "metadata_cached",
+    "retrieved_utc": null,
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dryad_landing.txt",
+    "url": "https://datadryad.org/dataset/doi%3A10.5061/dryad.x69p8czn8",
+    "sha256": "f0050132f0e8b3d5b6d0bd4e214a16745a4809d9969bef38e63d9c0156191919",
+    "bytes": 44446,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:44:10.085388+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dryad_latest_download_error.txt",
+    "url": "https://datadryad.org/downloads/file_stream/2465930",
+    "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+    "bytes": 118,
+    "status": 403,
+    "retrieved_utc": "2026-11-20T16:48:51.873041+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dryad_linkset.json",
+    "url": "https://datadryad.org/dataset/doi:10.5061/dryad.x69p8czn8/linkset.json",
+    "sha256": "459bceef4eb582a85c168e951b1e4f461ddc59f1b37565e4ec05a618d2af48a5",
+    "bytes": 2290,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:49:37.499667+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dryad_phenotypes_preview.txt",
+    "url": "https://datadryad.org/data_file/preview_check/2465928.js",
+    "sha256": "a699bce0b9481ae5ac7e8121cca1ded3573e369502d56c353311fe263a3569e7",
+    "bytes": 1547,
+    "status": 422,
+    "retrieved_utc": "2026-11-20T16:49:37.499010+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dryad_prior_files.json",
+    "url": "https://datadryad.org/api/v2/versions/220859/files",
+    "sha256": "964986071bd903f959b5d1e8d770e2555910aff2884e495d6d11450f2e0a2cd6",
+    "bytes": 3568,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:48:51.872793+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dryad_prior_readme.txt",
+    "url": "https://datadryad.org/downloads/file_stream/2107877",
+    "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+    "bytes": 118,
+    "status": 403,
+    "retrieved_utc": "2026-11-20T16:49:37.498323+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dryad_version.json",
+    "url": "https://datadryad.org/api/v2/versions/248051",
+    "sha256": "8586b971cb6051b2c9dc9f310c1aab9880bef869f8d7f894092bfa54b57e6706",
+    "bytes": 6589,
+    "status": "metadata_cached",
+    "retrieved_utc": null,
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/dryad_versions.json",
+    "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czn8/versions",
+    "sha256": "03aeef3694958c987a426ed6d947c1aa2b20c7a96edf58ca4d35cbbc4382f382",
+    "bytes": 12986,
+    "status": "downloaded",
+    "retrieved_utc": "2026-11-20T16:46:52.882327+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/lines_preview.js",
+    "url": "https://datadryad.org/data_file/preview/2465924",
+    "sha256": "a4adcbedf83c5511767067dbf2e78731a9b7512c8d3ce0df9493806074898fc7",
+    "bytes": 5541,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:51:02.184824+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/paper_methods_web.json",
+    "url": "https://acsess.onlinelibrary.wiley.com/doi/full/10.1002/csc2.20955",
+    "sha256": "fd4eb701aed8a811dcdc1371ea8d32a0ed7d5299ef058fc9f9e0fff0d6c50c6e",
+    "bytes": 857,
+    "status": "archived_failed_web_tool_lookup",
+    "retrieved_utc": null,
+    "note": "Failed find responses only; not a copy of the article and not evidence for methods"
+  },
+  {
+    "path": "raw/uruguay/phenotypes_preview.js",
+    "url": "https://datadryad.org/data_file/preview/2465928",
+    "sha256": "f2a5dda99241257d3095db2528f001e37f0fae1d3dfe013066ac2782a9196724",
+    "bytes": 5546,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:50:32.111622+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/preview_session.txt",
+    "url": "https://datadryad.org/data_file/preview_check/2465928.js",
+    "sha256": "c0d78d8537cbe701d34c8f72c88cb029339554b75755b90a0e3a5dceac1cf5d4",
+    "bytes": 418,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:50:14.007768+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/readme_preview.js",
+    "url": "https://datadryad.org/data_file/preview/2465930",
+    "sha256": "342ef4db26ed2069766763464afffefb305a807f1ef6c7aa731286ce80cdfe38",
+    "bytes": 442,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:51:00.482805+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/readme_session.txt",
+    "url": "https://datadryad.org/downloads/file_stream/2465930",
+    "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+    "bytes": 118,
+    "status": 403,
+    "retrieved_utc": "2026-11-20T16:50:13.536513+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/redata_api.txt",
+    "url": "https://redata.anii.org.uy/api/datasets/:persistentId/?persistentId=doi:10.60895/redata/2ZSCWL",
+    "sha256": "96890133fafbdbdc6e40a1b745860e21e21a84286010b11196500baffc2338a0",
+    "bytes": 5447,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:44:12.770816+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/redata_ddi.xml",
+    "url": "https://redata.anii.org.uy/api/access/datafile/344/metadata/ddi",
+    "sha256": "fb22012b03da66d48d65accc6a60702d52e3c34b5850e1717d876f72d4aff6f3",
+    "bytes": 78197,
+    "status": "downloaded",
+    "retrieved_utc": "2026-11-20T16:45:57.064793+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/redata_original.csv",
+    "url": "https://redata.anii.org.uy/api/access/datafile/344?format=original",
+    "sha256": "79550c69c58f1cdc592db47494414ab6a2289f54ff92979635e863ad73ef795d",
+    "bytes": 64247803,
+    "status": "downloaded",
+    "retrieved_utc": "2026-11-20T16:45:57.065105+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/redata_search_original.json",
+    "url": "https://redata.anii.org.uy/api/search?q=%22Rice+Breeding+Program+Historical+Dataset%22&type=dataset",
+    "sha256": "513a19dfcdcc6a72d358e06da524e10e9710fb6b796fd2efb124d01daa1dd693",
+    "bytes": 2744,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:51:41.926365+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/trials_preview.js",
+    "url": "https://datadryad.org/data_file/preview/2465926",
+    "sha256": "bbcd0ae7091b611651d7c412eb7e849ca17ff8a341ccf8ec983e38bf61d3544d",
+    "bytes": 5542,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:51:01.199477+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/zenodo_query0.json",
+    "url": "https://zenodo.org/api/records?q=%22Rice+Breeding+Program+Historical+Dataset%22&size=20",
+    "sha256": "fe2522e668bba7433052789de506c2000056a29943c6ed8764ef53d54b9ef9e5",
+    "bytes": 8903,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:51:32.300195+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/zenodo_query1.json",
+    "url": "https://zenodo.org/api/records?q=%22x69p8czn8%22&size=20",
+    "sha256": "4690a037608a75dceda61ea72b66157622851f176b4e67f1d347f1ee476aa1e9",
+    "bytes": 441,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:51:29.252896+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/zenodo_query2.json",
+    "url": "https://zenodo.org/api/records?q=%22PMGA_BD_INIA%22&size=20",
+    "sha256": "d87c89ba13ab751cabb3857a8376ae608b6269c55fdbae6286e1814dc8bf955d",
+    "bytes": 444,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:51:31.253363+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/zenodo_record.json",
+    "url": "https://zenodo.org/api/records/8222856",
+    "sha256": "83833d0cdcdda104ef5c815c02c3fa46e8f846a200a7a634b3879d26e9b9c30b",
+    "bytes": 7117,
+    "status": "metadata_cached",
+    "retrieved_utc": null,
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  },
+  {
+    "path": "raw/uruguay/zenodo_search.json",
+    "url": "https://zenodo.org/api/records?q=x69p8czn8&size=10",
+    "sha256": "2b84bd5afecb2260ddeb08e7e7d36fb5a4afb7820c7b0276d0e8b80ee38e9e8d",
+    "bytes": 435,
+    "status": 200,
+    "retrieved_utc": "2026-11-20T16:49:37.498039+00:00",
+    "note": "Inspect original access log for full HTTP status; failed-response files are not data inputs"
+  }
+]

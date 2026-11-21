@@ -1,0 +1,2 @@
+# Preserve exact bytes, including source CSV line endings, for SHA-256 checks.
+* -text

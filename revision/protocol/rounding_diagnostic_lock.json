@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-11-21T16:01:25.593399+00:00",
+  "timing": "Repository execution lock after original diagnostic outcomes were observed; scientific source formatting is AST-equivalent. This is not the original pre-computation lock.",
+  "plan_sha256": "42a5ecc6262165e40b9c85d1d642cb39a471aded4688e883ef22ddd4d224363a",
+  "plan_text_sha256": "2516cdcabb74874925da75a2c4b9a3c77d33a9ea9ce2a233de20b5f83c316498",
+  "code_sha256": "4526ccbf06e8ac683d17f886bd47428f28918e758cced6435fd4daa6b7b36643",
+  "original_lock_path": "provenance/reviewer_bundle/revision/protocol/rounding_diagnostic_lock.json",
+  "original_lock_sha256": "a992b0ed75aebfa59307ffd505552bc7b51066bfdb96662da8eaa5ba0aeb6ba6",
+  "original_synthetic_checks": "32 exhaustive rectangle vertices and252 scalar/vector scenario-budget checks passed"
+}

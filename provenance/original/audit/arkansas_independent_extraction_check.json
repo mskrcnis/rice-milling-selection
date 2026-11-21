@@ -1,0 +1,12 @@
+{
+  "method": "Poppler fixed-layout tokens versus pdfplumber word bounding boxes and font sizes; five genuinely empty cells confirmed visually and retained as empty tokens",
+  "tables": 72,
+  "candidate_table_rows": 1579,
+  "measurement_cells": 10109,
+  "row_identity_checks_passed": true,
+  "cell_checks_passed": true,
+  "mismatched_cells": 0,
+  "manual_candidate_rows": 7,
+  "manual_blank_cells": 5,
+  "manual_checks_passed": true
+}

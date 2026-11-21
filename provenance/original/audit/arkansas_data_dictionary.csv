@@ -1,0 +1,44 @@
+file,column,role,definition
+public_features.csv,row_id,public metadata or permitted field-yield input,"Exact one-to-one row key: program, harvest year, site and normalized reported cultivar."
+public_features.csv,pool_id,public metadata or permitted field-yield input,Annual site-year ARPT candidate pool; class does not split the pool.
+public_features.csv,candidate_id,public metadata or permitted field-yield input,Uppercase reported cultivar with punctuation and spaces removed; no inferred cultivar aliases.
+public_features.csv,cultivar_original,public metadata or permitted field-yield input,Verbatim annual grain-table cultivar label assembled from PDF words.
+public_features.csv,site,public metadata or permitted field-yield input,Source station/county code; NEREC and NERREC are distinct; PTBS->PTRS and NBES->NEC are documented station aliases.
+public_features.csv,year,public metadata or permitted field-yield input,"Harvest trial year, never publication access date or multi-year mean."
+public_features.csv,program,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,trial_stage,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,field_yield,public metadata or permitted field-yield input,Published grain mean converted from integer bu/ac to kg/ha at12% moisture using45lb/bu.
+public_features.csv,field_yield_bu_ac,public metadata or permitted field-yield input,Published integer bushels/acre; missing remains missing.
+public_features.csv,yield_unit,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,grain_class,public metadata or permitted field-yield input,Source grain-length/market descriptor L/M/LA/S; not harmonized with Uruguay genetic classes.
+public_features.csv,replicate_count,public metadata or permitted field-yield input,"Reported design replication count; annual tables provide cultivar means, not individual replicate measurements."
+public_features.csv,replicate_data_available,public metadata or permitted field-yield input,False: no reconstructed or invented replicate-level measurements.
+public_features.csv,moisture_basis_percent,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,bushel_mass_lb,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,paired_outcome_available,public metadata or permitted field-yield input,Audit-only availability of nonmissing field yield and HR/TR for the exact key; not a predictor.
+public_features.csv,pool_compromised,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,pool_compromise_reason,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,harvest_condition_compromised,public metadata or permitted field-yield input,True for2022PTRS low harvest moisture and2025RREC delayed harvest.
+public_features.csv,eligible,public metadata or permitted field-yield input,Paired row in a pool without the six prespecified documented compromises; n>=10 and calendar/exposure restrictions are separate.
+public_features.csv,sensitivity_include_compromised,public metadata or permitted field-yield input,Paired row retained for documented-compromise sensitivity.
+public_features.csv,previously_seen,public metadata or permitted field-yield input,True for every row in the2025NERREC pool.
+public_features.csv,exposure,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,lodging_percent,public metadata or permitted field-yield input,Smaller-font superscript adjacent to grain yield; blank is not recoded zero.
+public_features.csv,grain_source_report,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,grain_source_page,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,milling_source_report,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,milling_source_page,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,source_selection,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,site_description,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,planting_date_original,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,emergence_date_original,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,harvest_date_original,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,soil_original,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+public_features.csv,location_type,public metadata or permitted field-yield input,Source metadata/provenance retained for audit; not automatically a modeling predictor.
+private_outcomes.csv,hr_percent,quarantined outcome or provenance,Head rice as percentage of original rough-rice mass; integer displayed precision.
+private_outcomes.csv,tr_percent,quarantined outcome or provenance,Total milled rice as percentage of original rough-rice mass; separate from head rice.
+private_outcomes.csv,head_output_kg_ha,quarantined outcome or provenance,Product of published field-yield mean and HR mean/100; not mean plotwise product.
+private_outcomes.csv,raw_milling_cell,quarantined outcome or provenance,Original displayed HR-TR string.
+private_outcomes.csv,source_report,quarantined outcome or provenance,Year of the selected annual report containing the explicit individual-year milling cell.
+private_outcomes.csv,source_page,quarantined outcome or provenance,One-based PDF page of selected milling cell.
+private_outcomes.csv,source_table,quarantined outcome or provenance,"Original table title, with ambiguity corrections/exclusions documented separately."

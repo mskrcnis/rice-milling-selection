@@ -1,0 +1,40 @@
+[
+  {
+    "name": "datacite_metadata.json",
+    "url": "https://api.datacite.org/dois/10.5061/dryad.x69p8czn8",
+    "retrieved_utc": "2026-11-20T16:46:52.881746+00:00",
+    "http_status": 200,
+    "resolved_url": "https://api.datacite.org/dois/10.5061/dryad.x69p8czn8",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded",
+    "path": "raw/uruguay/datacite_metadata.json",
+    "sha256": "66818757e8dc5adcd61af333e905f47f590d9e3a92e5b9c6dcd5b3f06a01ae50",
+    "bytes": 19087
+  },
+  {
+    "name": "dryad_versions.json",
+    "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czn8/versions",
+    "retrieved_utc": "2026-11-20T16:46:52.882327+00:00",
+    "http_status": 200,
+    "resolved_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czn8/versions",
+    "content_type": "application/json; charset=utf-8",
+    "status": "downloaded",
+    "path": "raw/uruguay/dryad_versions.json",
+    "sha256": "03aeef3694958c987a426ed6d947c1aa2b20c7a96edf58ca4d35cbbc4382f382",
+    "bytes": 12986
+  },
+  {
+    "name": "dryad_legacy_README.txt",
+    "url": "https://datadryad.org/stash/downloads/file_stream/2465930",
+    "retrieved_utc": "2026-11-20T16:46:52.882658+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "dryad_dataone_capabilities.xml",
+    "url": "https://datadryad.org/mn/v2/node",
+    "retrieved_utc": "2026-11-20T16:46:52.882979+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

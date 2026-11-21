@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://datadryad.org/data_file/preview/2465930",
+    "status": 200,
+    "path": "raw/uruguay/readme_preview.js",
+    "sha256": "342ef4db26ed2069766763464afffefb305a807f1ef6c7aa731286ce80cdfe38",
+    "retrieved_utc": "2026-11-20T16:51:00.482805+00:00",
+    "bytes": 442
+  },
+  {
+    "url": "https://datadryad.org/data_file/preview/2465926",
+    "status": 200,
+    "path": "raw/uruguay/trials_preview.js",
+    "sha256": "bbcd0ae7091b611651d7c412eb7e849ca17ff8a341ccf8ec983e38bf61d3544d",
+    "retrieved_utc": "2026-11-20T16:51:01.199477+00:00",
+    "bytes": 5542
+  },
+  {
+    "url": "https://datadryad.org/data_file/preview/2465924",
+    "status": 200,
+    "path": "raw/uruguay/lines_preview.js",
+    "sha256": "a4adcbedf83c5511767067dbf2e78731a9b7512c8d3ce0df9493806074898fc7",
+    "retrieved_utc": "2026-11-20T16:51:02.184824+00:00",
+    "bytes": 5541
+  }
+]

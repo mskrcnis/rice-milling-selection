@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Lines.txt",
+    "url": "https://datadryad.org/api/v2/files/2465924/download",
+    "retrieved_utc": "2026-11-20T16:45:18.217933+00:00",
+    "publisher_sha256": "644417788d35a4e236e084ecc24a230c9ed13c5896befdd052409470e6fed4f6",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "name": "Phenotypes.txt",
+    "url": "https://datadryad.org/api/v2/files/2465928/download",
+    "retrieved_utc": "2026-11-20T16:45:18.218514+00:00",
+    "publisher_sha256": "8e587890c3d5d479f4f43b7202eb365c4b866f4fe6f15c5d709ff2bc3eb33d0b",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "name": "README.md",
+    "url": "https://datadryad.org/api/v2/files/2465930/download",
+    "retrieved_utc": "2026-11-20T16:45:18.218860+00:00",
+    "publisher_sha256": "da3cee8cee3121dc1f90c8b86604a070eda7bc4e2215b6106329235e0488ea52",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "name": "Trials.txt",
+    "url": "https://datadryad.org/api/v2/files/2465926/download",
+    "retrieved_utc": "2026-11-20T16:45:18.219196+00:00",
+    "publisher_sha256": "2a75b0b5488fd243093bb4f6178e31142c0f42e8e739f58130782529f7dc103a",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized"
+  }
+]

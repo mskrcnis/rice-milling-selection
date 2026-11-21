@@ -1,0 +1,37 @@
+[
+  {
+    "path": "derived/uruguay/public_features.csv",
+    "sha256": "338838a3180e725f728c40c8992de36ad500ca772650a651f9d69c7d974731cc",
+    "bytes": 12337781
+  },
+  {
+    "path": "derived/uruguay/private_outcomes.csv",
+    "sha256": "8863971e57a6b79e279ad077f21b9449d7e0c0527ea1095ac87cb5867ca70b6e",
+    "bytes": 12934369
+  },
+  {
+    "path": "derived/uruguay/private_plot_records.csv",
+    "sha256": "d71c1cdc466d35f4c74695de74e03f1f89bfe446bb9ca9254b8762d517d16428",
+    "bytes": 28085610
+  },
+  {
+    "path": "derived/uruguay/public_plot_metadata.csv",
+    "sha256": "3a860fb64585a5e089250211440cc61d88f014b7743ab5ddb1a9852cd929c9a0",
+    "bytes": 22542209
+  },
+  {
+    "path": "audit/uruguay_coverage.csv",
+    "sha256": "daa20c3ed51d945474f656bec6c828c23285f7485e2beca737a516a26dfe0e34",
+    "bytes": 32009
+  },
+  {
+    "path": "audit/uruguay_pool_metadata.csv",
+    "sha256": "4d0882eb884ee6495efee85325d45b8720bc8287098c5703208326478ebce825",
+    "bytes": 53609
+  },
+  {
+    "path": "audit/uruguay_year_coverage.csv",
+    "sha256": "219849afe806dc246ac626521809b141823cbd36e1b6ad1c53e34530293ffa93",
+    "bytes": 720
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "scalar_scenario_budget_checks": 9672,
+  "scalar_metric_checks": 29016,
+  "maximum_absolute_metric_discrepancy": 2.7853275241795927e-12,
+  "absolute_tolerance": 1e-08,
+  "synthetic_rectangle_vertices": 32,
+  "original_query_sets_checked": 372,
+  "native_vs_archived_recall_nonzero_rows": 1,
+  "native_vs_archived_max_regret_difference_pp": 3.907985046680551e-14,
+  "full_budget_identity_checked": true,
+  "same_yield_realization_for_queries_and_scoring": true,
+  "same_realization_across_all_budgets": true
+}

@@ -1,0 +1,33 @@
+{
+  "rows": 2583,
+  "pools": 97,
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "paired_rows": 2041,
+  "eligible_rows": 1866,
+  "eligible_pools": 77,
+  "eligible_n10_rows": 1858,
+  "eligible_n10_pools": 76,
+  "unseen_transfer_rows": 1611,
+  "unseen_transfer_pools": 62,
+  "previously_seen_rows": 29,
+  "previously_seen_pools": 1,
+  "compromised_pools": 6,
+  "missing_grain_rows": 14,
+  "missing_paired_rows": 542
+}

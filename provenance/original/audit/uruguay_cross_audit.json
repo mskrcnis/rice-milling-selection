@@ -1,0 +1,702 @@
+{
+  "verified_utc": "2026-11-20T17:14:36.696618+00:00",
+  "passed": true,
+  "implementation": "Independent standard-library whitespace token parser, explicit multiword Lines field reconstruction, dictionary joins and grouping, math.fsum arithmetic means; no import of acquisition/preparation code and no use of saved means to compute expected values.",
+  "numeric_tolerance": {
+    "relative": 2e-14,
+    "absolute": 1e-09
+  },
+  "counts": {
+    "raw_phenotype_rows": 91636,
+    "exact_duplicate_rows_removed": 9,
+    "retained_source_rows": 91627,
+    "trials": 996,
+    "source_line_records": 20628,
+    "multiword_germplasm_records": 10848,
+    "candidate_rows_checked": 38480,
+    "eligible_candidates": 34493,
+    "candidate_pools": 996,
+    "repeated_candidate_within_known_block": 360,
+    "candidates_with_missing_block": 2387,
+    "same_hr_reported_on_multiple_rows_candidates": 128,
+    "source_plot_key_repetitions_beyond_first": 1186,
+    "checks": 128,
+    "cell_and_identity_comparisons": 7878202,
+    "same_or_unknown_block_repetition_candidates": 414,
+    "repeated_unknown_block_only_candidates": 54
+  },
+  "checks": {
+    "unique_trial_join_key": {
+      "checked": 996,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "unique_line_join_key": {
+      "checked": 20628,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "phenotype_trial_join_complete": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "phenotype_line_join_complete": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "unique_public_row_id": {
+      "checked": 1,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "unique_private_row_id": {
+      "checked": 1,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_private_exact_row_set": {
+      "checked": 1,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "candidate_identity_present": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_field_yield": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plant_height_cm": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_days_to_flowering": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_replicate_count": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_observation_count": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_yield_observation_count": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_hr_observation_count": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_matched_plot_count": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_hr_percent": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_hr_fraction": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_total_milled_recovery_percent": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_output_product_of_means": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_matched_yield_mean": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_matched_hr_mean": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_output_mean_of_matched_plot_products": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_matched_product_of_means": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_matched_plot_count": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_hr_observation_count": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_hr_distinct_value_count": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "metadata_year": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "metadata_trial": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "metadata_site": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "metadata_candidate_id": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "metadata_pool_id": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "metadata_germplasm_type": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "metadata_grain_class": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "metadata_stage": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "metadata_sowing_date": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "metadata_harvest_date": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_source_rows_exact": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_source_rows_exact": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_eligibility": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_eligibility": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "exclusion_reasons": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "same_reported_hr_flag": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "physical_assay_count_remains_unknown": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_identity_fields": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "complete_raw_candidate_universe": {
+      "checked": 1,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_row_count_and_identity": {
+      "checked": 1,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_YEAR": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_TRIAL": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_LOCATION": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_BLOCK": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_LINE_ID": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_GY": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_PH": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_FD": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_DTF": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_LB": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_NO": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_ROS": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_YAM": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_PHR": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_GC": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_SM": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_LW_RATIO": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_AC": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_raw_ADV": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_exact_duplicate": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_used_in_candidate": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_yield_valid": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_hr_valid": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_joint_valid": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_trial_metadata_SOWING_DATE": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_trial_metadata_HARVEST_DATE": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_trial_metadata_EVALUATION_STAGE": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_line_metadata_P1": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_line_metadata_P2": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_line_metadata_GERMPLASM_TYPE": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_line_metadata_BANK_ID": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_line_metadata_FLAR_ID": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_plot_records.csv_trial_line_join_flags": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_row_count_and_identity": {
+      "checked": 1,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_YEAR": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_TRIAL": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_LOCATION": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_BLOCK": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_LINE_ID": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_GY": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_PH": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_FD": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_DTF": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_LB": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_NO": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_raw_ROS": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_exact_duplicate": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_used_in_candidate": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_yield_valid": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_hr_valid": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_joint_valid": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_trial_metadata_SOWING_DATE": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_trial_metadata_HARVEST_DATE": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_trial_metadata_EVALUATION_STAGE": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_line_metadata_P1": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_line_metadata_P2": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_line_metadata_GERMPLASM_TYPE": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_line_metadata_BANK_ID": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_line_metadata_FLAR_ID": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_metadata.csv_trial_line_join_flags": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_plot_numeric_milling_and_trial_stat_blacklist": {
+      "checked": 1,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "public_candidate_numeric_milling_blacklist": {
+      "checked": 1,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "all_input_files_unchanged": {
+      "checked": 8,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "reported_repetition_includes_same_or_unknown_block": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "known_block_repetition_conservatively_flagged": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "source_manifest_sha256": {
+      "checked": 7,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "dryad_expected_sha256": {
+      "checked": 4,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "derived_manifest_sha256": {
+      "checked": 7,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_trial_join_numeric_HERITABILITY": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_trial_join_numeric_CV": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_trial_join_numeric_GENETIC_VARIANCE": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_trial_join_numeric_RESIDUAL_VARIANCE": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "private_line_join_generation": {
+      "checked": 91636,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "explicit_private_units_hr_unit": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "explicit_private_units_hr_denominator": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "explicit_private_units_output_unit": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "explicit_public_units_field_yield_unit": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "explicit_public_units_yield_moisture_basis": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "explicit_public_units_assay_sharing_status": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "explicit_public_units_check_status": {
+      "checked": 38480,
+      "failed": 0,
+      "first_bad_keys": []
+    },
+    "source_and_derived_preserved_final": {
+      "checked": 8,
+      "failed": 0,
+      "first_bad_keys": []
+    }
+  },
+  "input_sha256": {
+    "raw/uruguay/README.md": "da3cee8cee3121dc1f90c8b86604a070eda7bc4e2215b6106329235e0488ea52",
+    "raw/uruguay/Phenotypes.txt": "8e587890c3d5d479f4f43b7202eb365c4b866f4fe6f15c5d709ff2bc3eb33d0b",
+    "raw/uruguay/Trials.txt": "2a75b0b5488fd243093bb4f6178e31142c0f42e8e739f58130782529f7dc103a",
+    "raw/uruguay/Lines.txt": "644417788d35a4e236e084ecc24a230c9ed13c5896befdd052409470e6fed4f6",
+    "derived/uruguay/public_features.csv": "338838a3180e725f728c40c8992de36ad500ca772650a651f9d69c7d974731cc",
+    "derived/uruguay/private_outcomes.csv": "8863971e57a6b79e279ad077f21b9449d7e0c0527ea1095ac87cb5867ca70b6e",
+    "derived/uruguay/private_plot_records.csv": "d71c1cdc466d35f4c74695de74e03f1f89bfe446bb9ca9254b8762d517d16428",
+    "derived/uruguay/public_plot_metadata.csv": "3a860fb64585a5e089250211440cc61d88f014b7743ab5ddb1a9852cd929c9a0"
+  },
+  "structural_limitations": [
+    "PHR denominator is not explicit in the original archive; derived metadata correctly labels same-program support rather than archivewide confirmation.",
+    "Yield moisture basis remains unspecified; no13%-to12% conversion is invented.",
+    "The primary endpoint is product of all-observed marginal means; matched-row product and matched-row marginal means are separate sensitivity endpoints.",
+    "Repeated within-block check records remain distinct source observations after removal of exact duplicate full rows; block counts are not inflated to observation counts.",
+    "Equal reported HR values across rows do not identify independent physical milling assays; physical assay counts remain unknown.",
+    "Stage EF is preserved, not silently converted to README FE; unknown/E5/E6 stages remain distinguishable.",
+    "Source germplasm descriptors are retained separately from Arkansas market-class descriptions.",
+    "The stored repetition flag includes 54 candidates with repeated missing BLOCK values; only 360 candidates repeat a known block. The flag is conservative and does not establish that unknown-block records are the same plot."
+  ],
+  "privacy": "Audit contains no candidate HR values, output magnitudes, final labels, or policy-performance metrics.",
+  "definition_reconciliation": {
+    "flag": "repeated_candidate_within_block",
+    "stored_semantics": "Repeated candidate records with equal BLOCK tokens, including missing BLOCK; conservative audit flag, not proof of repeated identified physical plots.",
+    "strict_known_block_candidates": 360,
+    "additional_candidates_with_repeated_unknown_block": 54,
+    "stored_flag_candidates": 414,
+    "initial_strict_interpretation_disagreements": 54,
+    "numeric_or_join_discrepancy": false,
+    "source_or_extraction_mutation": false
+  },
+  "status": "PASS_WITH_DOCUMENTED_FLAG_SEMANTICS"
+}

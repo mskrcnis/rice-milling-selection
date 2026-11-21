@@ -1,0 +1,87 @@
+[
+  {
+    "name": "dryad_prior_files.json",
+    "url": "https://datadryad.org/api/v2/versions/220859/files",
+    "retrieved_utc": "2026-11-20T16:48:51.872793+00:00",
+    "status": 200,
+    "headers": {
+      "Date": "Fri, 20 Nov 2026 16:48:52 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "3568",
+      "Connection": "keep-alive",
+      "Set-Cookie": "AWSALBTG=8x3se/FCCpRl+G2Df5RNhtt4mYK7DlLjXYnhO9CuFDd5zNHTguV3MNNHTBll9dIziiAlbt2NnggUiPGC8Iuwrgi1KrQcaiyTAeHBB4hhT42EKy83FN5gnXLlfz63m6Re38dYg/4I7lN7FRAZnQbv3qqkrmwt/ZS/MwOnGRRnF56FrK+QMN4=; Expires=Fri, 27 Nov 2026 16:48:52 GMT; Path=/, AWSALBTGCORS=8x3se/FCCpRl+G2Df5RNhtt4mYK7DlLjXYnhO9CuFDd5zNHTguV3MNNHTBll9dIziiAlbt2NnggUiPGC8Iuwrgi1KrQcaiyTAeHBB4hhT42EKy83FN5gnXLlfz63m6Re38dYg/4I7lN7FRAZnQbv3qqkrmwt/ZS/MwOnGRRnF56FrK+QMN4=; Expires=Fri, 27 Nov 2026 16:48:52 GMT; Path=/; SameSite=None; Secure, AWSALB=Vb80yctdclwVjA7XGjiy1zJZWsbjaCoi0zY6lwdkG067+KJzuS7S9wHrFGavUERsgZBWkjg1Zftz3d6B/qXZRMXZO169MSpu0UI8uwuh2QeUi5LC5AWARYehOeJh; Expires=Fri, 27 Nov 2026 16:48:52 GMT; Path=/, AWSALBCORS=Vb80yctdclwVjA7XGjiy1zJZWsbjaCoi0zY6lwdkG067+KJzuS7S9wHrFGavUERsgZBWkjg1Zftz3d6B/qXZRMXZO169MSpu0UI8uwuh2QeUi5LC5AWARYehOeJh; Expires=Fri, 27 Nov 2026 16:48:52 GMT; Path=/; SameSite=None; Secure",
+      "Server": "Apache/2.4.69 (Amazon Linux) OpenSSL/3.5.8",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "1; mode=block",
+      "x-content-type-options": "nosniff",
+      "x-permitted-cross-domain-policies": "none",
+      "referrer-policy": "same-origin",
+      "cache-control": "no-store",
+      "pragma": "no-cache",
+      "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "x-api-version": "2.1.0",
+      "etag": "W/\"964986071bd903f959b5d1e8d770e255\"",
+      "content-security-policy-report-only": "default-src 'self' https://datadryad.org; connect-src 'self' data: https://blog.datadryad.org https://*.google-analytics.com https://cdn.jsdelivr.net https://*.awswaf.com https://*.datacite.org https://*.amazonaws.com https://doi.org https://doubleclick.net http://localhost:3000 http://127.0.0.1:3000 https://*.google.com https://datadryad.org; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://*.google-analytics.com https://cdnjs.cloudflare.com https://www.google.com https://www.recaptcha.net https://www.gstatic.com https://*.awswaf.com https://cdn.jsdelivr.net https://datadryad.org; script-src-elem 'self' 'unsafe-inline' blob: https://www.googletagmanager.com https://*.google-analytics.com https://*.awswaf.com https://*.proxy.hfzk.net.cn https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://js.stripe.com https://google.com https://*.google.com https://www.recaptcha.net https://www.gstatic.com https://www.gstatic.cn https://*.googleapis.com https://unpkg.com https://altmetric.com https://*.cloudfront.net https://cdn.mathjax.org https://doi.org http://localhost:3000 http://127.0.0.1:3000 https://datadryad.org; script-src-attr 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://*.googleapis.com https://www.gstatic.com https://datadryad.org; style-src-elem 'self' blob: data: 'unsafe-inline' https://*.googleapis.com https://www.gstatic.com https://altmetric.com https://datadryad.org; style-src-attr 'unsafe-inline'; font-src 'self' data: https://fonts.gstatic.com https://*.googleapis.com chrome-extension: moz-extension: safari-web-extension: ms-browser-extension: https://*.proxy.hfzk.net.cn https://cdn.scite.ai https://datadryad.org; img-src 'self' https: data: blob:; media-src 'self' data: https://datadryad.org; worker-src 'self' blob: https://cdnjs.cloudflare.com https://datadryad.org; child-src blob:; frame-src 'self' https://www.google.com https://www.recaptcha.net https://js.stripe.com https://hooks.stripe.com https://datadryad.org; object-src 'none'; report-uri /csp-violation-report-endpoint",
+      "x-request-id": "04fa1619-aaeb-4037-9924-579345dcdf4b",
+      "x-runtime": "0.046405"
+    },
+    "path": "raw/uruguay/dryad_prior_files.json",
+    "bytes": 3568,
+    "sha256": "964986071bd903f959b5d1e8d770e2555910aff2884e495d6d11450f2e0a2cd6"
+  },
+  {
+    "name": "dryad_latest_download_error.txt",
+    "url": "https://datadryad.org/downloads/file_stream/2465930",
+    "retrieved_utc": "2026-11-20T16:48:51.873041+00:00",
+    "status": 403,
+    "headers": {
+      "Server": "awselb/2.0",
+      "Date": "Fri, 20 Nov 2026 16:48:52 GMT",
+      "Content-Type": "text/html",
+      "Content-Length": "118",
+      "Connection": "keep-alive",
+      "Set-Cookie": "AWSALBTG=Xn3oh3xfNgpo5Yykge+DAQZqrfWpDEOANmoRs2wdV4NfcgSHr0q2CLEn1TTrvt4TK8TrcTLEL0z/lV2mrZTWwAWCJTH7Z61VqEbQoepU1UvhTDNf1LoYujIDK8FyrW+l7Qp83kq4wlqZS2IgMYn0wUcSKizXNwFZBSnj63d034qum2N95po=; Expires=Fri, 27 Nov 2026 16:48:52 GMT; Path=/, AWSALBTGCORS=Xn3oh3xfNgpo5Yykge+DAQZqrfWpDEOANmoRs2wdV4NfcgSHr0q2CLEn1TTrvt4TK8TrcTLEL0z/lV2mrZTWwAWCJTH7Z61VqEbQoepU1UvhTDNf1LoYujIDK8FyrW+l7Qp83kq4wlqZS2IgMYn0wUcSKizXNwFZBSnj63d034qum2N95po=; Expires=Fri, 27 Nov 2026 16:48:52 GMT; Path=/; SameSite=None; Secure"
+    },
+    "path": "raw/uruguay/dryad_latest_download_error.txt",
+    "bytes": 118,
+    "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4"
+  },
+  {
+    "name": "scheffel_thesis.pdf",
+    "url": "https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/41336/1/ScheffelSheila.pdf",
+    "retrieved_utc": "2026-11-20T16:48:51.873253+00:00",
+    "error": "HTTPSConnectionPool(host='www.colibri.udelar.edu.uy', port=443): Max retries exceeded with url: /jspui/bitstream/20.500.12008/41336/1/ScheffelSheila.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x71a972451a00>, 'Connection to www.colibri.udelar.edu.uy timed out. (connect timeout=55)'))"
+  },
+  {
+    "name": "dryad_api_file_meta.json",
+    "url": "https://datadryad.org/api/v2/files/2465930",
+    "retrieved_utc": "2026-11-20T16:48:51.874086+00:00",
+    "status": 200,
+    "headers": {
+      "Date": "Fri, 20 Nov 2026 16:48:52 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "604",
+      "Connection": "keep-alive",
+      "Set-Cookie": "AWSALBTG=uNuLwrzpaNkoczK4YOo5Q2qbyXfz7Xw4IrO/Jwme8wn/1oWoXIhcne8Dt1BrgwpsmqjPm4gBjpvE3lOkF6pdEnMNaFjXoFn/1Btc4N4CxL7vwa/Kz+jJB5+9WTRxf/Uwt6s0eL8OldrBwNZtzcv/AAEML4QgYVsedymB2OEtVu/KC8QGeYU=; Expires=Fri, 27 Nov 2026 16:48:52 GMT; Path=/, AWSALBTGCORS=uNuLwrzpaNkoczK4YOo5Q2qbyXfz7Xw4IrO/Jwme8wn/1oWoXIhcne8Dt1BrgwpsmqjPm4gBjpvE3lOkF6pdEnMNaFjXoFn/1Btc4N4CxL7vwa/Kz+jJB5+9WTRxf/Uwt6s0eL8OldrBwNZtzcv/AAEML4QgYVsedymB2OEtVu/KC8QGeYU=; Expires=Fri, 27 Nov 2026 16:48:52 GMT; Path=/; SameSite=None; Secure, AWSALB=rhzbtkQJj6mNis3ceX+Li0tX6/HEBY1M2qmk1Pke6t/6ajGcDHHcMci9r8226Hr8SgEzH6oA311MkasfionqOAOBr9Hnhsgh1+Oi5b2qwCo0PmbPPz2y0PyA+hWf; Expires=Fri, 27 Nov 2026 16:48:52 GMT; Path=/, AWSALBCORS=rhzbtkQJj6mNis3ceX+Li0tX6/HEBY1M2qmk1Pke6t/6ajGcDHHcMci9r8226Hr8SgEzH6oA311MkasfionqOAOBr9Hnhsgh1+Oi5b2qwCo0PmbPPz2y0PyA+hWf; Expires=Fri, 27 Nov 2026 16:48:52 GMT; Path=/; SameSite=None; Secure",
+      "Server": "Apache/2.4.69 (Amazon Linux) OpenSSL/3.5.8",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "1; mode=block",
+      "x-content-type-options": "nosniff",
+      "x-permitted-cross-domain-policies": "none",
+      "referrer-policy": "same-origin",
+      "cache-control": "no-store",
+      "pragma": "no-cache",
+      "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "x-api-version": "2.1.0",
+      "etag": "W/\"cd99034103006ea18ef77001dc3d93b1\"",
+      "content-security-policy-report-only": "default-src 'self' https://datadryad.org; connect-src 'self' data: https://blog.datadryad.org https://*.google-analytics.com https://cdn.jsdelivr.net https://*.awswaf.com https://*.datacite.org https://*.amazonaws.com https://doi.org https://doubleclick.net http://localhost:3000 http://127.0.0.1:3000 https://*.google.com https://datadryad.org; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://*.google-analytics.com https://cdnjs.cloudflare.com https://www.google.com https://www.recaptcha.net https://www.gstatic.com https://*.awswaf.com https://cdn.jsdelivr.net https://datadryad.org; script-src-elem 'self' 'unsafe-inline' blob: https://www.googletagmanager.com https://*.google-analytics.com https://*.awswaf.com https://*.proxy.hfzk.net.cn https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://js.stripe.com https://google.com https://*.google.com https://www.recaptcha.net https://www.gstatic.com https://www.gstatic.cn https://*.googleapis.com https://unpkg.com https://altmetric.com https://*.cloudfront.net https://cdn.mathjax.org https://doi.org http://localhost:3000 http://127.0.0.1:3000 https://datadryad.org; script-src-attr 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://*.googleapis.com https://www.gstatic.com https://datadryad.org; style-src-elem 'self' blob: data: 'unsafe-inline' https://*.googleapis.com https://www.gstatic.com https://altmetric.com https://datadryad.org; style-src-attr 'unsafe-inline'; font-src 'self' data: https://fonts.gstatic.com https://*.googleapis.com chrome-extension: moz-extension: safari-web-extension: ms-browser-extension: https://*.proxy.hfzk.net.cn https://cdn.scite.ai https://datadryad.org; img-src 'self' https: data: blob:; media-src 'self' data: https://datadryad.org; worker-src 'self' blob: https://cdnjs.cloudflare.com https://datadryad.org; child-src blob:; frame-src 'self' https://www.google.com https://www.recaptcha.net https://js.stripe.com https://hooks.stripe.com https://datadryad.org; object-src 'none'; report-uri /csp-violation-report-endpoint",
+      "x-request-id": "1c28d318-9072-42b7-895f-1f73851e4bed",
+      "x-runtime": "0.020148"
+    },
+    "path": "raw/uruguay/dryad_api_file_meta.json",
+    "bytes": 604,
+    "sha256": "cd99034103006ea18ef77001dc3d93b17d37056e205b85e75d2b642c71fbc6ff"
+  }
+]

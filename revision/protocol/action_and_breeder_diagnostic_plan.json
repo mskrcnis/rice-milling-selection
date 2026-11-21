@@ -1,0 +1,15 @@
+{
+  "status": "post_hoc_descriptive_plan_before_diagnostic_execution",
+  "date": "2026-11-20",
+  "document": "action_and_breeder_diagnostic_plan.md",
+  "sha256": "4407c10a39ebd328b2fafb5d7124f295741fceaebb39c5ccf6db1ad917676ee3",
+  "primary_budget": 0.25,
+  "secondary_budget": 0.4,
+  "primary_strata": [
+    "uruguay_temporal",
+    "arkansas_external"
+  ],
+  "query_boundary": "rank / ceil(0.25*n) <= 1",
+  "pool_equal_weight": "1/(number_of_pools*ceil(0.10*n))",
+  "no_model_or_protocol_changes": true
+}

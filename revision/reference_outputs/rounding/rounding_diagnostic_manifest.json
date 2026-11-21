@@ -1,0 +1,30 @@
+{
+  "post_hoc": true,
+  "status": "complete",
+  "plan_sha256": "42a5ecc6262165e40b9c85d1d642cb39a471aded4688e883ef22ddd4d224363a",
+  "code_sha256": "1ba66a874194b4f5460fdaa401d6aed184d0b2e1ae9fa2c6d9d158974a504182",
+  "input_sha256_relative_to_source": {
+    "derived/cohort/evaluation_public.csv": "461a1864a1f8e2089ac4aa8251f0771194b74d2bbd9cc70e8d7ff2df2126e9d8",
+    "private/evaluation_key.csv": "52cff8cbdab400edc4ab1f01b3bfe3ad004f8ac02014c4800ea863ef1ec080e8",
+    "derived/arkansas/public_features.csv": "3225537e41bd6c192aa79af787a90a29d03429f51a3ae0615d44de27f7841a27",
+    "outputs/run_a/per_pool_results.csv": "d4e2c9d66652da38d2e71a0944de8f0bfc1eb0f8da1094fa459257084d56a356",
+    "outputs/run_a/evaluation_events.jsonl.gz": "3aa87b25137ae1f7b3a9b51a17ec02d7f744391bfcc7e285d25eb3bbcb0a7717",
+    "outputs/run_a/evaluation_freeze.json": "a8bc5b3621171f33fde57730653e1cd4f55fc52fef1bd46d703a4755ec09dc65",
+    "outputs/run_a/sensitivity/paired_coverage_sensitivity.csv": "bc5c0c3bb3840f27dd6c7d91177d34ebe5de47074187849302b724894d7cb7ca",
+    "outputs/run_a/tables/policy_summary.csv": "869136c947e16acad5008a5d561167d2daa3bafe1489a62b6c363294b5521b9c",
+    "protocol/analysis_protocol.md": "4525a54fabaeda5440009bf9ed361e1c12b5fb20e88190e463fcded3a2450d47",
+    "audit/sensitivity_design.md": "dea06d15093b65539c19afccdaa47b6e30d269d9d26b3a53330dc78ca9be9335"
+  },
+  "output_sha256": {
+    "cohort_budget_summary.csv": "105f462478625b851da6ee4781143f853f1a917d6362cb3a1ec23960b9723899",
+    "fixed_query_pool_bounds.csv": "73f986d5539e492983c551afe0b536557d1e62097e82a55ad0f370d10703afc4",
+    "grid_crossing_summary.csv": "3045443db9c0eb63b7d812cea85560b7717e67b0646519e6dc3795d420217a69",
+    "independent_verification.json": "c41425cc3c71ef2f3bc4029f6f1c08b63967345a8290510fd5857c79d1a37974",
+    "joint_deterministic_scenarios.csv": "40b49127eaa29c4503a4843a5284bc90d5e75f320cb875a31126575fb6ad2a8a",
+    "joint_uniform_draws.csv.gz": "3c694cb030f07798f0d04971c589376a46c4a31e557eb9fed81265fb1178efbe",
+    "joint_uniform_summary.csv": "e70f50471d7bf781f2afa9d86fee3379e9a5c4907fb4c654d6a50b85241c5152",
+    "native_float_tie_audit.csv": "ba85e8caacaa23b86ad5377d94db7aba71d11314264c3e551d499e5323bb75c8"
+  },
+  "original_files_modified": false,
+  "scope": "Sharp fixed-query pointwise metric envelopes and feasible joint perturbation scenarios; no guaranteed joint policy bounds or sampling confidence intervals"
+}

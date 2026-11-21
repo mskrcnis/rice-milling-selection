@@ -1,0 +1,26 @@
+[
+  {
+    "query": "\"Rice Breeding Program Historical Dataset\"",
+    "url": "https://zenodo.org/api/records?q=%22Rice+Breeding+Program+Historical+Dataset%22&size=20",
+    "status": 200,
+    "path": "raw/uruguay/zenodo_query0.json",
+    "sha256": "fe2522e668bba7433052789de506c2000056a29943c6ed8764ef53d54b9ef9e5",
+    "retrieved_utc": "2026-11-20T16:51:32.300195+00:00"
+  },
+  {
+    "query": "\"x69p8czn8\"",
+    "url": "https://zenodo.org/api/records?q=%22x69p8czn8%22&size=20",
+    "status": 200,
+    "path": "raw/uruguay/zenodo_query1.json",
+    "sha256": "4690a037608a75dceda61ea72b66157622851f176b4e67f1d347f1ee476aa1e9",
+    "retrieved_utc": "2026-11-20T16:51:29.252896+00:00"
+  },
+  {
+    "query": "\"PMGA_BD_INIA\"",
+    "url": "https://zenodo.org/api/records?q=%22PMGA_BD_INIA%22&size=20",
+    "status": 200,
+    "path": "raw/uruguay/zenodo_query2.json",
+    "sha256": "d87c89ba13ab751cabb3857a8376ae608b6269c55fdbae6286e1814dc8bf955d",
+    "retrieved_utc": "2026-11-20T16:51:31.253363+00:00"
+  }
+]

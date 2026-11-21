@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Lines.txt",
+    "url": "https://zenodo.org/api/records/8222856/files/Lines.txt/content",
+    "doi": "10.5061/dryad.x69p8czn8",
+    "mirror_record": 8222856,
+    "license": "CC0-1.0",
+    "retrieved_utc": "2026-11-20T16:52:02.720312+00:00",
+    "status": "downloaded_verified",
+    "path": "raw/uruguay/Lines.txt",
+    "sha256": "644417788d35a4e236e084ecc24a230c9ed13c5896befdd052409470e6fed4f6",
+    "bytes": 1006798,
+    "dryad_sha256_match": true
+  },
+  {
+    "name": "Trials.txt",
+    "url": "https://zenodo.org/api/records/8222856/files/Trials.txt/content",
+    "doi": "10.5061/dryad.x69p8czn8",
+    "mirror_record": 8222856,
+    "license": "CC0-1.0",
+    "retrieved_utc": "2026-11-20T16:52:02.720571+00:00",
+    "status": "downloaded_verified",
+    "path": "raw/uruguay/Trials.txt",
+    "sha256": "2a75b0b5488fd243093bb4f6178e31142c0f42e8e739f58130782529f7dc103a",
+    "bytes": 64317,
+    "dryad_sha256_match": true
+  },
+  {
+    "name": "README.md",
+    "url": "https://zenodo.org/api/records/8222856/files/README.md/content",
+    "doi": "10.5061/dryad.x69p8czn8",
+    "mirror_record": 8222856,
+    "license": "CC0-1.0",
+    "retrieved_utc": "2026-11-20T16:52:02.721343+00:00",
+    "status": "downloaded_verified",
+    "path": "raw/uruguay/README.md",
+    "sha256": "da3cee8cee3121dc1f90c8b86604a070eda7bc4e2215b6106329235e0488ea52",
+    "bytes": 11866,
+    "dryad_sha256_match": true
+  },
+  {
+    "name": "Phenotypes.txt",
+    "url": "https://zenodo.org/api/records/8222856/files/Phenotypes.txt/content",
+    "doi": "10.5061/dryad.x69p8czn8",
+    "mirror_record": 8222856,
+    "license": "CC0-1.0",
+    "retrieved_utc": "2026-11-20T16:52:02.722408+00:00",
+    "status": "downloaded_verified",
+    "path": "raw/uruguay/Phenotypes.txt",
+    "sha256": "8e587890c3d5d479f4f43b7202eb365c4b866f4fe6f15c5d709ff2bc3eb33d0b",
+    "bytes": 9293354,
+    "dryad_sha256_match": true
+  }
+]
